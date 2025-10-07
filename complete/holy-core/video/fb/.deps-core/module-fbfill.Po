@@ -1,0 +1,17 @@
+video/fb/module-fbfill.o: video/fb/fbfill.c ../include/holy/video_fb.h \
+ ../include/holy/symbol.h ../config.h ../include/holy/types.h \
+ ../include/holy/cpu/types.h ../include/holy/err.h \
+ ../include/holy/video.h ../include/holy/list.h \
+ ../include/holy/compiler.h ../include/holy/fbfill.h \
+ ../include/holy/fbutil.h
+../include/holy/video_fb.h:
+../include/holy/symbol.h:
+../config.h:
+../include/holy/types.h:
+../include/holy/cpu/types.h:
+../include/holy/err.h:
+../include/holy/video.h:
+../include/holy/list.h:
+../include/holy/compiler.h:
+../include/holy/fbfill.h:
+../include/holy/fbutil.h:

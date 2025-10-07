@@ -1,0 +1,13 @@
+video/fb/module-fbutil.o: video/fb/fbutil.c ../include/holy/fbutil.h \
+ ../include/holy/types.h ../config.h ../include/holy/cpu/types.h \
+ ../include/holy/video.h ../include/holy/err.h ../include/holy/symbol.h \
+ ../include/holy/list.h ../include/holy/compiler.h
+../include/holy/fbutil.h:
+../include/holy/types.h:
+../config.h:
+../include/holy/cpu/types.h:
+../include/holy/video.h:
+../include/holy/err.h:
+../include/holy/symbol.h:
+../include/holy/list.h:
+../include/holy/compiler.h:

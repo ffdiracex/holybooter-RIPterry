@@ -1,0 +1,32 @@
+term/i386/pc/mda_text_module-mda_text.o: term/i386/pc/mda_text.c \
+ term/i386/pc/vga_text.c ../include/holy/dl.h ../include/holy/symbol.h \
+ ../config.h ../include/holy/err.h ../include/holy/types.h \
+ ../include/holy/cpu/types.h ../include/holy/elf.h ../include/holy/list.h \
+ ../include/holy/compiler.h ../include/holy/misc.h \
+ /usr/lib/gcc/x86_64-linux-gnu/13/include/stdarg.h ../include/holy/i18n.h \
+ ../include/holy/cpu/io.h ../include/holy/vga.h ../include/holy/pci.h \
+ ../include/holy/cpu/pci.h ../include/holy/i386/io.h \
+ ../include/holy/vgaregs.h ../include/holy/term.h \
+ ../include/holy/unicode.h ../include/holy/mm.h
+term/i386/pc/vga_text.c:
+../include/holy/dl.h:
+../include/holy/symbol.h:
+../config.h:
+../include/holy/err.h:
+../include/holy/types.h:
+../include/holy/cpu/types.h:
+../include/holy/elf.h:
+../include/holy/list.h:
+../include/holy/compiler.h:
+../include/holy/misc.h:
+/usr/lib/gcc/x86_64-linux-gnu/13/include/stdarg.h:
+../include/holy/i18n.h:
+../include/holy/cpu/io.h:
+../include/holy/vga.h:
+../include/holy/pci.h:
+../include/holy/cpu/pci.h:
+../include/holy/i386/io.h:
+../include/holy/vgaregs.h:
+../include/holy/term.h:
+../include/holy/unicode.h:
+../include/holy/mm.h:

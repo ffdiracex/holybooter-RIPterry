@@ -1,0 +1,25 @@
+lib/backtrace_module-backtrace.o: lib/backtrace.c ../include/holy/misc.h \
+ /usr/lib/gcc/x86_64-linux-gnu/13/include/stdarg.h \
+ ../include/holy/types.h ../config.h ../include/holy/cpu/types.h \
+ ../include/holy/symbol.h ../include/holy/err.h ../include/holy/i18n.h \
+ ../include/holy/compiler.h ../include/holy/command.h \
+ ../include/holy/list.h ../include/holy/dl.h ../include/holy/elf.h \
+ ../include/holy/mm.h ../include/holy/term.h ../include/holy/unicode.h \
+ ../include/holy/backtrace.h
+../include/holy/misc.h:
+/usr/lib/gcc/x86_64-linux-gnu/13/include/stdarg.h:
+../include/holy/types.h:
+../config.h:
+../include/holy/cpu/types.h:
+../include/holy/symbol.h:
+../include/holy/err.h:
+../include/holy/i18n.h:
+../include/holy/compiler.h:
+../include/holy/command.h:
+../include/holy/list.h:
+../include/holy/dl.h:
+../include/holy/elf.h:
+../include/holy/mm.h:
+../include/holy/term.h:
+../include/holy/unicode.h:
+../include/holy/backtrace.h:

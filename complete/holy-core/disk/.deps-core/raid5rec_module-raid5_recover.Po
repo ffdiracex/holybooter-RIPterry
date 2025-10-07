@@ -1,0 +1,25 @@
+disk/raid5rec_module-raid5_recover.o: disk/raid5_recover.c \
+ ../include/holy/dl.h ../include/holy/symbol.h ../config.h \
+ ../include/holy/err.h ../include/holy/types.h \
+ ../include/holy/cpu/types.h ../include/holy/elf.h ../include/holy/list.h \
+ ../include/holy/compiler.h ../include/holy/misc.h \
+ /usr/lib/gcc/x86_64-linux-gnu/13/include/stdarg.h ../include/holy/i18n.h \
+ ../include/holy/disk.h ../include/holy/device.h ../include/holy/mm.h \
+ ../include/holy/diskfilter.h ../include/holy/crypto.h
+../include/holy/dl.h:
+../include/holy/symbol.h:
+../config.h:
+../include/holy/err.h:
+../include/holy/types.h:
+../include/holy/cpu/types.h:
+../include/holy/elf.h:
+../include/holy/list.h:
+../include/holy/compiler.h:
+../include/holy/misc.h:
+/usr/lib/gcc/x86_64-linux-gnu/13/include/stdarg.h:
+../include/holy/i18n.h:
+../include/holy/disk.h:
+../include/holy/device.h:
+../include/holy/mm.h:
+../include/holy/diskfilter.h:
+../include/holy/crypto.h:

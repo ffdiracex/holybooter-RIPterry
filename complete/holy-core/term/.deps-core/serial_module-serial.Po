@@ -1,0 +1,39 @@
+term/serial_module-serial.o: term/serial.c ../include/holy/serial.h \
+ ../include/holy/types.h ../config.h ../include/holy/cpu/types.h \
+ ../include/holy/cpu/io.h ../include/holy/usb.h ../include/holy/err.h \
+ ../include/holy/symbol.h ../include/holy/usbdesc.h \
+ ../include/holy/usbtrans.h ../include/holy/list.h \
+ ../include/holy/compiler.h ../include/holy/term.h \
+ ../include/holy/unicode.h ../include/holy/mm.h ../include/holy/misc.h \
+ /usr/lib/gcc/x86_64-linux-gnu/13/include/stdarg.h ../include/holy/i18n.h \
+ ../include/holy/dl.h ../include/holy/elf.h ../include/holy/terminfo.h \
+ ../include/holy/extcmd.h ../include/holy/lib/arg.h \
+ ../include/holy/command.h ../include/holy/script_sh.h \
+ ../include/holy/parser.h ../include/holy/reader.h
+../include/holy/serial.h:
+../include/holy/types.h:
+../config.h:
+../include/holy/cpu/types.h:
+../include/holy/cpu/io.h:
+../include/holy/usb.h:
+../include/holy/err.h:
+../include/holy/symbol.h:
+../include/holy/usbdesc.h:
+../include/holy/usbtrans.h:
+../include/holy/list.h:
+../include/holy/compiler.h:
+../include/holy/term.h:
+../include/holy/unicode.h:
+../include/holy/mm.h:
+../include/holy/misc.h:
+/usr/lib/gcc/x86_64-linux-gnu/13/include/stdarg.h:
+../include/holy/i18n.h:
+../include/holy/dl.h:
+../include/holy/elf.h:
+../include/holy/terminfo.h:
+../include/holy/extcmd.h:
+../include/holy/lib/arg.h:
+../include/holy/command.h:
+../include/holy/script_sh.h:
+../include/holy/parser.h:
+../include/holy/reader.h:

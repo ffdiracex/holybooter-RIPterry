@@ -1,0 +1,12 @@
+holy-core/lib/libgcrypt-holy/cipher/libholygcry_a-init.o: \
+ holy-core/lib/libgcrypt-holy/cipher/init.c /usr/include/stdc-predef.h \
+ include/holy/crypto.h include/holy/symbol.h config.h config-util.h \
+ include/holy/types.h include/holy/err.h include/holy/mm.h
+/usr/include/stdc-predef.h:
+include/holy/crypto.h:
+include/holy/symbol.h:
+config.h:
+config-util.h:
+include/holy/types.h:
+include/holy/err.h:
+include/holy/mm.h:

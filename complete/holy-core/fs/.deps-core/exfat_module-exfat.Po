@@ -1,0 +1,30 @@
+fs/exfat_module-exfat.o: fs/exfat.c fs/fat.c ../include/holy/fs.h \
+ ../include/holy/device.h ../include/holy/symbol.h ../config.h \
+ ../include/holy/err.h ../include/holy/types.h \
+ ../include/holy/cpu/types.h ../include/holy/list.h \
+ ../include/holy/compiler.h ../include/holy/disk.h ../include/holy/mm.h \
+ ../include/holy/file.h ../include/holy/misc.h \
+ /usr/lib/gcc/x86_64-linux-gnu/13/include/stdarg.h ../include/holy/i18n.h \
+ ../include/holy/dl.h ../include/holy/elf.h ../include/holy/charset.h \
+ ../include/holy/exfat.h ../include/holy/fshelp.h
+fs/fat.c:
+../include/holy/fs.h:
+../include/holy/device.h:
+../include/holy/symbol.h:
+../config.h:
+../include/holy/err.h:
+../include/holy/types.h:
+../include/holy/cpu/types.h:
+../include/holy/list.h:
+../include/holy/compiler.h:
+../include/holy/disk.h:
+../include/holy/mm.h:
+../include/holy/file.h:
+../include/holy/misc.h:
+/usr/lib/gcc/x86_64-linux-gnu/13/include/stdarg.h:
+../include/holy/i18n.h:
+../include/holy/dl.h:
+../include/holy/elf.h:
+../include/holy/charset.h:
+../include/holy/exfat.h:
+../include/holy/fshelp.h:

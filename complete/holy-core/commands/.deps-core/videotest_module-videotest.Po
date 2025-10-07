@@ -1,0 +1,44 @@
+commands/videotest_module-videotest.o: commands/videotest.c \
+ ../include/holy/video.h ../include/holy/err.h ../include/holy/symbol.h \
+ ../config.h ../include/holy/types.h ../include/holy/cpu/types.h \
+ ../include/holy/list.h ../include/holy/compiler.h ../include/holy/dl.h \
+ ../include/holy/elf.h ../include/holy/misc.h \
+ /usr/lib/gcc/x86_64-linux-gnu/13/include/stdarg.h ../include/holy/i18n.h \
+ ../include/holy/mm.h ../include/holy/font.h ../include/holy/file.h \
+ ../include/holy/device.h ../include/holy/fs.h ../include/holy/disk.h \
+ ../include/holy/unicode.h ../include/holy/term.h \
+ ../include/holy/command.h ../include/holy/gfxmenu_view.h \
+ ../include/holy/menu.h ../include/holy/gfxwidgets.h \
+ ../include/holy/bitmap.h ../include/holy/bitmap_scale.h \
+ ../include/holy/gui.h ../include/holy/icon_manager.h \
+ ../include/holy/env.h
+../include/holy/video.h:
+../include/holy/err.h:
+../include/holy/symbol.h:
+../config.h:
+../include/holy/types.h:
+../include/holy/cpu/types.h:
+../include/holy/list.h:
+../include/holy/compiler.h:
+../include/holy/dl.h:
+../include/holy/elf.h:
+../include/holy/misc.h:
+/usr/lib/gcc/x86_64-linux-gnu/13/include/stdarg.h:
+../include/holy/i18n.h:
+../include/holy/mm.h:
+../include/holy/font.h:
+../include/holy/file.h:
+../include/holy/device.h:
+../include/holy/fs.h:
+../include/holy/disk.h:
+../include/holy/unicode.h:
+../include/holy/term.h:
+../include/holy/command.h:
+../include/holy/gfxmenu_view.h:
+../include/holy/menu.h:
+../include/holy/gfxwidgets.h:
+../include/holy/bitmap.h:
+../include/holy/bitmap_scale.h:
+../include/holy/gui.h:
+../include/holy/icon_manager.h:
+../include/holy/env.h:

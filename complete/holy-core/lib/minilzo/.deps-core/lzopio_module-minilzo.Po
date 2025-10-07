@@ -1,0 +1,26 @@
+lib/minilzo/lzopio_module-minilzo.o: lib/minilzo/minilzo.c ../config.h \
+ lib/posix_wrap/limits.h ../include/holy/types.h \
+ ../include/holy/cpu/types.h \
+ /usr/lib/gcc/x86_64-linux-gnu/13/include/stddef.h lib/minilzo/minilzo.h \
+ lib/minilzo/lzoconf.h lib/minilzo/lzodefs.h lib/posix_wrap/string.h \
+ ../include/holy/misc.h /usr/lib/gcc/x86_64-linux-gnu/13/include/stdarg.h \
+ ../include/holy/symbol.h ../include/holy/err.h ../include/holy/i18n.h \
+ ../include/holy/compiler.h lib/posix_wrap/sys/types.h \
+ lib/posix_wrap/assert.h
+../config.h:
+lib/posix_wrap/limits.h:
+../include/holy/types.h:
+../include/holy/cpu/types.h:
+/usr/lib/gcc/x86_64-linux-gnu/13/include/stddef.h:
+lib/minilzo/minilzo.h:
+lib/minilzo/lzoconf.h:
+lib/minilzo/lzodefs.h:
+lib/posix_wrap/string.h:
+../include/holy/misc.h:
+/usr/lib/gcc/x86_64-linux-gnu/13/include/stdarg.h:
+../include/holy/symbol.h:
+../include/holy/err.h:
+../include/holy/i18n.h:
+../include/holy/compiler.h:
+lib/posix_wrap/sys/types.h:
+lib/posix_wrap/assert.h:

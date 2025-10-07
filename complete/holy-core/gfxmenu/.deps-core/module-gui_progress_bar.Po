@@ -1,0 +1,39 @@
+gfxmenu/module-gui_progress_bar.o: gfxmenu/gui_progress_bar.c \
+ ../include/holy/mm.h ../include/holy/types.h ../config.h \
+ ../include/holy/cpu/types.h ../include/holy/symbol.h \
+ ../include/holy/misc.h /usr/lib/gcc/x86_64-linux-gnu/13/include/stdarg.h \
+ ../include/holy/err.h ../include/holy/i18n.h ../include/holy/compiler.h \
+ ../include/holy/gui.h ../include/holy/video.h ../include/holy/list.h \
+ ../include/holy/bitmap.h ../include/holy/gfxmenu_view.h \
+ ../include/holy/menu.h ../include/holy/font.h ../include/holy/file.h \
+ ../include/holy/device.h ../include/holy/fs.h ../include/holy/disk.h \
+ ../include/holy/unicode.h ../include/holy/gfxwidgets.h \
+ ../include/holy/bitmap_scale.h ../include/holy/icon_manager.h \
+ ../include/holy/gui_string_util.h ../include/holy/color.h
+../include/holy/mm.h:
+../include/holy/types.h:
+../config.h:
+../include/holy/cpu/types.h:
+../include/holy/symbol.h:
+../include/holy/misc.h:
+/usr/lib/gcc/x86_64-linux-gnu/13/include/stdarg.h:
+../include/holy/err.h:
+../include/holy/i18n.h:
+../include/holy/compiler.h:
+../include/holy/gui.h:
+../include/holy/video.h:
+../include/holy/list.h:
+../include/holy/bitmap.h:
+../include/holy/gfxmenu_view.h:
+../include/holy/menu.h:
+../include/holy/font.h:
+../include/holy/file.h:
+../include/holy/device.h:
+../include/holy/fs.h:
+../include/holy/disk.h:
+../include/holy/unicode.h:
+../include/holy/gfxwidgets.h:
+../include/holy/bitmap_scale.h:
+../include/holy/icon_manager.h:
+../include/holy/gui_string_util.h:
+../include/holy/color.h:

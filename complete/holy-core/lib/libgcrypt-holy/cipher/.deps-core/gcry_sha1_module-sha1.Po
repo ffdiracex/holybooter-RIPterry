@@ -1,0 +1,52 @@
+lib/libgcrypt-holy/cipher/gcry_sha1_module-sha1.o: \
+ lib/libgcrypt-holy/cipher/sha1.c ../include/holy/dl.h \
+ ../include/holy/symbol.h ../config.h ../include/holy/err.h \
+ ../include/holy/types.h ../include/holy/cpu/types.h \
+ ../include/holy/elf.h ../include/holy/list.h ../include/holy/compiler.h \
+ ../include/holy/misc.h /usr/lib/gcc/x86_64-linux-gnu/13/include/stdarg.h \
+ ../include/holy/i18n.h lib/libgcrypt-holy/cipher/g10lib.h \
+ ../holy-core/lib/libgcrypt_wrap/cipher_wrap.h ../include/holy/mm.h \
+ ../include/holy/crypto.h ../holy-core/lib/posix_wrap/sys/types.h \
+ /usr/lib/gcc/x86_64-linux-gnu/13/include/stddef.h \
+ ../holy-core/lib/posix_wrap/string.h ../include/holy/gcrypt/g10lib.h \
+ ../holy-core/lib/posix_wrap/stdio.h ../include/holy/file.h \
+ ../include/holy/device.h ../include/holy/fs.h ../include/holy/disk.h \
+ ../holy-core/lib/libgcrypt-holy/src/visibility.h \
+ ../include/holy/gcrypt/gcrypt.h ../include/holy/gcrypt/gpg-error.h \
+ ../holy-core/lib/libgcrypt-holy/src/gcrypt-module.h \
+ ../holy-core/lib/libgcrypt-holy/src/types.h \
+ lib/libgcrypt-holy/cipher/bithelp.h lib/libgcrypt-holy/cipher/cipher.h \
+ lib/libgcrypt-holy/cipher/hash-common.h
+../include/holy/dl.h:
+../include/holy/symbol.h:
+../config.h:
+../include/holy/err.h:
+../include/holy/types.h:
+../include/holy/cpu/types.h:
+../include/holy/elf.h:
+../include/holy/list.h:
+../include/holy/compiler.h:
+../include/holy/misc.h:
+/usr/lib/gcc/x86_64-linux-gnu/13/include/stdarg.h:
+../include/holy/i18n.h:
+lib/libgcrypt-holy/cipher/g10lib.h:
+../holy-core/lib/libgcrypt_wrap/cipher_wrap.h:
+../include/holy/mm.h:
+../include/holy/crypto.h:
+../holy-core/lib/posix_wrap/sys/types.h:
+/usr/lib/gcc/x86_64-linux-gnu/13/include/stddef.h:
+../holy-core/lib/posix_wrap/string.h:
+../include/holy/gcrypt/g10lib.h:
+../holy-core/lib/posix_wrap/stdio.h:
+../include/holy/file.h:
+../include/holy/device.h:
+../include/holy/fs.h:
+../include/holy/disk.h:
+../holy-core/lib/libgcrypt-holy/src/visibility.h:
+../include/holy/gcrypt/gcrypt.h:
+../include/holy/gcrypt/gpg-error.h:
+../holy-core/lib/libgcrypt-holy/src/gcrypt-module.h:
+../holy-core/lib/libgcrypt-holy/src/types.h:
+lib/libgcrypt-holy/cipher/bithelp.h:
+lib/libgcrypt-holy/cipher/cipher.h:
+lib/libgcrypt-holy/cipher/hash-common.h:

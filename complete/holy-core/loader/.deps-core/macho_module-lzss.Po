@@ -1,0 +1,6 @@
+loader/macho_module-lzss.o: loader/lzss.c ../include/holy/types.h \
+ ../config.h ../include/holy/cpu/types.h ../include/holy/macho.h
+../include/holy/types.h:
+../config.h:
+../include/holy/cpu/types.h:
+../include/holy/macho.h:

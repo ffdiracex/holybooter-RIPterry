@@ -1,0 +1,44 @@
+net/drivers/i386/pc/pxe_module-pxe.o: net/drivers/i386/pc/pxe.c \
+ ../include/holy/dl.h ../include/holy/symbol.h ../config.h \
+ ../include/holy/err.h ../include/holy/types.h \
+ ../include/holy/cpu/types.h ../include/holy/elf.h ../include/holy/list.h \
+ ../include/holy/compiler.h ../include/holy/misc.h \
+ /usr/lib/gcc/x86_64-linux-gnu/13/include/stdarg.h ../include/holy/i18n.h \
+ ../include/holy/net.h ../include/holy/fs.h ../include/holy/device.h \
+ ../include/holy/file.h ../include/holy/disk.h ../include/holy/mm.h \
+ ../include/holy/net/netbuff.h ../include/holy/env.h \
+ ../include/holy/menu.h ../include/holy/loader.h \
+ ../include/holy/machine/pxe.h ../include/holy/machine/int.h \
+ ../include/holy/machine/memory.h ../include/holy/memory.h \
+ ../include/holy/i386/memory.h ../include/holy/i386/memory_raw.h \
+ ../include/holy/offsets.h ../include/holy/machine/kernel.h
+../include/holy/dl.h:
+../include/holy/symbol.h:
+../config.h:
+../include/holy/err.h:
+../include/holy/types.h:
+../include/holy/cpu/types.h:
+../include/holy/elf.h:
+../include/holy/list.h:
+../include/holy/compiler.h:
+../include/holy/misc.h:
+/usr/lib/gcc/x86_64-linux-gnu/13/include/stdarg.h:
+../include/holy/i18n.h:
+../include/holy/net.h:
+../include/holy/fs.h:
+../include/holy/device.h:
+../include/holy/file.h:
+../include/holy/disk.h:
+../include/holy/mm.h:
+../include/holy/net/netbuff.h:
+../include/holy/env.h:
+../include/holy/menu.h:
+../include/holy/loader.h:
+../include/holy/machine/pxe.h:
+../include/holy/machine/int.h:
+../include/holy/machine/memory.h:
+../include/holy/memory.h:
+../include/holy/i386/memory.h:
+../include/holy/i386/memory_raw.h:
+../include/holy/offsets.h:
+../include/holy/machine/kernel.h:

@@ -1,0 +1,4 @@
+COMMAND_LIST_MARKER(const char *name, holy_command_func_t func, const char *summary, const char *description)
+P1COMMAND_LIST_MARKER(const char *name, holy_command_func_t func, const char *summary, const char *description)
+holy_extcmd_t EXTCOMMAND_LIST_MARKER(const char *name, holy_extcmd_func_t func, holy_command_flags_t flags, const char *summary, const char *description, const struct holy_arg_option *parser)
+    EXTCOMMAND_LIST_MARKER("search", holy_cmd_search, holy_COMMAND_FLAG_EXTRACTOR | holy_COMMAND_ACCEPT_DASH, "[-f|-l|-u|-s|-n] [--hint HINT [--hint HINT] ...]" " NAME", "Search devices by file, filesystem label" " or filesystem UUID." " If --set is specified, the first device found is" " set to a variable. If no variable name is" " specified, `root' is used.", options)

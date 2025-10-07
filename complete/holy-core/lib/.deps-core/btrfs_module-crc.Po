@@ -1,0 +1,6 @@
+lib/btrfs_module-crc.o: lib/crc.c ../include/holy/types.h ../config.h \
+ ../include/holy/cpu/types.h ../include/holy/lib/crc.h
+../include/holy/types.h:
+../config.h:
+../include/holy/cpu/types.h:
+../include/holy/lib/crc.h:

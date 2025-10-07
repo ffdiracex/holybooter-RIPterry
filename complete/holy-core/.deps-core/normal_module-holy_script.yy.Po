@@ -1,0 +1,42 @@
+normal_module-holy_script.yy.o: holy_script.yy.c ../config.h \
+ ../holy-core/lib/posix_wrap/sys/types.h ../include/holy/misc.h \
+ /usr/lib/gcc/x86_64-linux-gnu/13/include/stdarg.h \
+ ../include/holy/types.h ../include/holy/cpu/types.h \
+ ../include/holy/symbol.h ../include/holy/err.h ../include/holy/i18n.h \
+ ../include/holy/compiler.h \
+ /usr/lib/gcc/x86_64-linux-gnu/13/include/stddef.h \
+ ../holy-core/lib/posix_wrap/stdio.h ../include/holy/file.h \
+ ../include/holy/device.h ../include/holy/fs.h ../include/holy/list.h \
+ ../include/holy/disk.h ../include/holy/mm.h \
+ ../holy-core/lib/posix_wrap/string.h ../holy-core/lib/posix_wrap/errno.h \
+ ../holy-core/lib/posix_wrap/stdlib.h \
+ ../holy-core/lib/posix_wrap/inttypes.h ../include/holy/parser.h \
+ ../include/holy/reader.h ../include/holy/script_sh.h \
+ ../include/holy/command.h holy_script.tab.h
+../config.h:
+../holy-core/lib/posix_wrap/sys/types.h:
+../include/holy/misc.h:
+/usr/lib/gcc/x86_64-linux-gnu/13/include/stdarg.h:
+../include/holy/types.h:
+../include/holy/cpu/types.h:
+../include/holy/symbol.h:
+../include/holy/err.h:
+../include/holy/i18n.h:
+../include/holy/compiler.h:
+/usr/lib/gcc/x86_64-linux-gnu/13/include/stddef.h:
+../holy-core/lib/posix_wrap/stdio.h:
+../include/holy/file.h:
+../include/holy/device.h:
+../include/holy/fs.h:
+../include/holy/list.h:
+../include/holy/disk.h:
+../include/holy/mm.h:
+../holy-core/lib/posix_wrap/string.h:
+../holy-core/lib/posix_wrap/errno.h:
+../holy-core/lib/posix_wrap/stdlib.h:
+../holy-core/lib/posix_wrap/inttypes.h:
+../include/holy/parser.h:
+../include/holy/reader.h:
+../include/holy/script_sh.h:
+../include/holy/command.h:
+holy_script.tab.h:

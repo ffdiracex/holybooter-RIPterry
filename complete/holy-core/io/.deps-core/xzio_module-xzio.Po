@@ -1,0 +1,34 @@
+io/xzio_module-xzio.o: io/xzio.c ../include/holy/err.h \
+ ../include/holy/symbol.h ../config.h ../include/holy/mm.h \
+ ../include/holy/types.h ../include/holy/cpu/types.h \
+ ../include/holy/misc.h /usr/lib/gcc/x86_64-linux-gnu/13/include/stdarg.h \
+ ../include/holy/i18n.h ../include/holy/compiler.h ../include/holy/file.h \
+ ../include/holy/device.h ../include/holy/fs.h ../include/holy/list.h \
+ ../include/holy/disk.h ../include/holy/dl.h ../include/holy/elf.h \
+ lib/xzembed/xz.h lib/posix_wrap/stdint.h lib/posix_wrap/sys/types.h \
+ /usr/lib/gcc/x86_64-linux-gnu/13/include/stddef.h \
+ lib/posix_wrap/unistd.h lib/posix_wrap/string.h lib/xzembed/xz_stream.h
+../include/holy/err.h:
+../include/holy/symbol.h:
+../config.h:
+../include/holy/mm.h:
+../include/holy/types.h:
+../include/holy/cpu/types.h:
+../include/holy/misc.h:
+/usr/lib/gcc/x86_64-linux-gnu/13/include/stdarg.h:
+../include/holy/i18n.h:
+../include/holy/compiler.h:
+../include/holy/file.h:
+../include/holy/device.h:
+../include/holy/fs.h:
+../include/holy/list.h:
+../include/holy/disk.h:
+../include/holy/dl.h:
+../include/holy/elf.h:
+lib/xzembed/xz.h:
+lib/posix_wrap/stdint.h:
+lib/posix_wrap/sys/types.h:
+/usr/lib/gcc/x86_64-linux-gnu/13/include/stddef.h:
+lib/posix_wrap/unistd.h:
+lib/posix_wrap/string.h:
+lib/xzembed/xz_stream.h:

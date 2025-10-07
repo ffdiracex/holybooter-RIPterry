@@ -1,0 +1,3 @@
+  PARTMAP_LIST_MARKER (&holy_bsdlabel_partition_map);
+  PARTMAP_LIST_MARKER (&holy_netbsdlabel_partition_map);
+  PARTMAP_LIST_MARKER (&holy_openbsdlabel_partition_map);

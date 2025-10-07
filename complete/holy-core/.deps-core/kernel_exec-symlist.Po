@@ -1,0 +1,77 @@
+kernel_exec-symlist.o: symlist.c ../config.h ../include/holy/cache.h \
+ ../include/holy/symbol.h ../config.h ../include/holy/types.h \
+ ../include/holy/cpu/types.h ../include/holy/command.h \
+ ../include/holy/err.h ../include/holy/list.h ../include/holy/compiler.h \
+ ../include/holy/misc.h /usr/lib/gcc/x86_64-linux-gnu/13/include/stdarg.h \
+ ../include/holy/i18n.h ../include/holy/device.h ../include/holy/disk.h \
+ ../include/holy/device.h ../include/holy/mm.h ../include/holy/dl.h \
+ ../include/holy/elf.h ../include/holy/env.h ../include/holy/menu.h \
+ ../include/holy/env_private.h ../include/holy/env.h \
+ ../include/holy/err.h ../include/holy/file.h ../include/holy/fs.h \
+ ../include/holy/disk.h ../include/holy/fs.h ../include/holy/i18n.h \
+ ../include/holy/kernel.h ../include/holy/list.h ../include/holy/misc.h \
+ ../include/holy/compiler-rt.h ../include/holy/mm.h \
+ ../include/holy/parser.h ../include/holy/reader.h \
+ ../include/holy/partition.h ../include/holy/dl.h ../include/holy/term.h \
+ ../include/holy/unicode.h ../include/holy/time.h \
+ ../include/holy/cpu/time.h ../include/holy/mm_private.h \
+ ../include/holy/net.h ../include/holy/file.h \
+ ../include/holy/net/netbuff.h ../include/holy/tpm.h \
+ ../include/holy/memory.h ../include/holy/machine/kernel.h \
+ ../include/holy/offsets.h ../include/holy/machine/pxe.h \
+ ../include/holy/machine/int.h ../include/holy/i386/tsc.h \
+ ../include/holy/i386/cpuid.h
+../config.h:
+../include/holy/cache.h:
+../include/holy/symbol.h:
+../config.h:
+../include/holy/types.h:
+../include/holy/cpu/types.h:
+../include/holy/command.h:
+../include/holy/err.h:
+../include/holy/list.h:
+../include/holy/compiler.h:
+../include/holy/misc.h:
+/usr/lib/gcc/x86_64-linux-gnu/13/include/stdarg.h:
+../include/holy/i18n.h:
+../include/holy/device.h:
+../include/holy/disk.h:
+../include/holy/device.h:
+../include/holy/mm.h:
+../include/holy/dl.h:
+../include/holy/elf.h:
+../include/holy/env.h:
+../include/holy/menu.h:
+../include/holy/env_private.h:
+../include/holy/env.h:
+../include/holy/err.h:
+../include/holy/file.h:
+../include/holy/fs.h:
+../include/holy/disk.h:
+../include/holy/fs.h:
+../include/holy/i18n.h:
+../include/holy/kernel.h:
+../include/holy/list.h:
+../include/holy/misc.h:
+../include/holy/compiler-rt.h:
+../include/holy/mm.h:
+../include/holy/parser.h:
+../include/holy/reader.h:
+../include/holy/partition.h:
+../include/holy/dl.h:
+../include/holy/term.h:
+../include/holy/unicode.h:
+../include/holy/time.h:
+../include/holy/cpu/time.h:
+../include/holy/mm_private.h:
+../include/holy/net.h:
+../include/holy/file.h:
+../include/holy/net/netbuff.h:
+../include/holy/tpm.h:
+../include/holy/memory.h:
+../include/holy/machine/kernel.h:
+../include/holy/offsets.h:
+../include/holy/machine/pxe.h:
+../include/holy/machine/int.h:
+../include/holy/i386/tsc.h:
+../include/holy/i386/cpuid.h:

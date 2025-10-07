@@ -1,0 +1,8 @@
+holy-core/lib/libholymods_a-crc.o: holy-core/lib/crc.c \
+ /usr/include/stdc-predef.h include/holy/types.h config.h config-util.h \
+ include/holy/lib/crc.h
+/usr/include/stdc-predef.h:
+include/holy/types.h:
+config.h:
+config-util.h:
+include/holy/lib/crc.h:

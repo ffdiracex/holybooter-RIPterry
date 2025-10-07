@@ -1,0 +1,50 @@
+fs/zfs/zfs_module-zfs_fletcher.o: fs/zfs/zfs_fletcher.c \
+ ../include/holy/err.h ../include/holy/symbol.h ../config.h \
+ ../include/holy/file.h ../include/holy/types.h \
+ ../include/holy/cpu/types.h ../include/holy/device.h \
+ ../include/holy/fs.h ../include/holy/list.h ../include/holy/compiler.h \
+ ../include/holy/disk.h ../include/holy/mm.h ../include/holy/misc.h \
+ /usr/lib/gcc/x86_64-linux-gnu/13/include/stdarg.h ../include/holy/i18n.h \
+ ../include/holy/dl.h ../include/holy/elf.h ../include/holy/zfs/zfs.h \
+ ../include/holy/crypto.h ../include/holy/zfs/zio.h \
+ ../include/holy/zfs/spa.h ../include/holy/zfs/dnode.h \
+ ../include/holy/zfs/uberblock_impl.h ../include/holy/zfs/vdev_impl.h \
+ ../include/holy/zfs/zio_checksum.h ../include/holy/zfs/zap_impl.h \
+ ../include/holy/zfs/zap_leaf.h ../include/holy/zfs/zfs_znode.h \
+ ../include/holy/zfs/zfs_acl.h ../include/holy/zfs/dmu.h \
+ ../include/holy/zfs/dmu_objset.h ../include/holy/zfs/zil.h \
+ ../include/holy/zfs/dsl_dir.h ../include/holy/zfs/dsl_dataset.h
+../include/holy/err.h:
+../include/holy/symbol.h:
+../config.h:
+../include/holy/file.h:
+../include/holy/types.h:
+../include/holy/cpu/types.h:
+../include/holy/device.h:
+../include/holy/fs.h:
+../include/holy/list.h:
+../include/holy/compiler.h:
+../include/holy/disk.h:
+../include/holy/mm.h:
+../include/holy/misc.h:
+/usr/lib/gcc/x86_64-linux-gnu/13/include/stdarg.h:
+../include/holy/i18n.h:
+../include/holy/dl.h:
+../include/holy/elf.h:
+../include/holy/zfs/zfs.h:
+../include/holy/crypto.h:
+../include/holy/zfs/zio.h:
+../include/holy/zfs/spa.h:
+../include/holy/zfs/dnode.h:
+../include/holy/zfs/uberblock_impl.h:
+../include/holy/zfs/vdev_impl.h:
+../include/holy/zfs/zio_checksum.h:
+../include/holy/zfs/zap_impl.h:
+../include/holy/zfs/zap_leaf.h:
+../include/holy/zfs/zfs_znode.h:
+../include/holy/zfs/zfs_acl.h:
+../include/holy/zfs/dmu.h:
+../include/holy/zfs/dmu_objset.h:
+../include/holy/zfs/zil.h:
+../include/holy/zfs/dsl_dir.h:
+../include/holy/zfs/dsl_dataset.h:

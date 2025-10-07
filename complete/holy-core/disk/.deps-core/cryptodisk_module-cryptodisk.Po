@@ -1,0 +1,39 @@
+disk/cryptodisk_module-cryptodisk.o: disk/cryptodisk.c \
+ ../include/holy/cryptodisk.h ../include/holy/disk.h ../config.h \
+ ../include/holy/symbol.h ../include/holy/err.h ../include/holy/types.h \
+ ../include/holy/cpu/types.h ../include/holy/device.h \
+ ../include/holy/mm.h ../include/holy/crypto.h ../include/holy/list.h \
+ ../include/holy/compiler.h ../include/holy/misc.h \
+ /usr/lib/gcc/x86_64-linux-gnu/13/include/stdarg.h ../include/holy/i18n.h \
+ ../include/holy/dl.h ../include/holy/elf.h ../include/holy/extcmd.h \
+ ../include/holy/lib/arg.h ../include/holy/command.h \
+ ../include/holy/script_sh.h ../include/holy/parser.h \
+ ../include/holy/reader.h ../include/holy/fs.h ../include/holy/file.h \
+ ../include/holy/procfs.h ../include/holy/partition.h
+../include/holy/cryptodisk.h:
+../include/holy/disk.h:
+../config.h:
+../include/holy/symbol.h:
+../include/holy/err.h:
+../include/holy/types.h:
+../include/holy/cpu/types.h:
+../include/holy/device.h:
+../include/holy/mm.h:
+../include/holy/crypto.h:
+../include/holy/list.h:
+../include/holy/compiler.h:
+../include/holy/misc.h:
+/usr/lib/gcc/x86_64-linux-gnu/13/include/stdarg.h:
+../include/holy/i18n.h:
+../include/holy/dl.h:
+../include/holy/elf.h:
+../include/holy/extcmd.h:
+../include/holy/lib/arg.h:
+../include/holy/command.h:
+../include/holy/script_sh.h:
+../include/holy/parser.h:
+../include/holy/reader.h:
+../include/holy/fs.h:
+../include/holy/file.h:
+../include/holy/procfs.h:
+../include/holy/partition.h:

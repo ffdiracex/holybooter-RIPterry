@@ -1,0 +1,33 @@
+bus/cs5536_module-cs5536.o: bus/cs5536.c ../include/holy/types.h \
+ ../config.h ../include/holy/cpu/types.h ../include/holy/cs5536.h \
+ ../include/holy/pci.h ../include/holy/symbol.h ../include/holy/cpu/pci.h \
+ ../include/holy/i386/io.h ../include/holy/err.h ../include/holy/smbus.h \
+ ../include/holy/time.h ../include/holy/cpu/time.h ../include/holy/ata.h \
+ ../include/holy/misc.h /usr/lib/gcc/x86_64-linux-gnu/13/include/stdarg.h \
+ ../include/holy/i18n.h ../include/holy/compiler.h ../include/holy/disk.h \
+ ../include/holy/device.h ../include/holy/mm.h ../include/holy/cpu/io.h \
+ ../include/holy/dl.h ../include/holy/elf.h ../include/holy/list.h
+../include/holy/types.h:
+../config.h:
+../include/holy/cpu/types.h:
+../include/holy/cs5536.h:
+../include/holy/pci.h:
+../include/holy/symbol.h:
+../include/holy/cpu/pci.h:
+../include/holy/i386/io.h:
+../include/holy/err.h:
+../include/holy/smbus.h:
+../include/holy/time.h:
+../include/holy/cpu/time.h:
+../include/holy/ata.h:
+../include/holy/misc.h:
+/usr/lib/gcc/x86_64-linux-gnu/13/include/stdarg.h:
+../include/holy/i18n.h:
+../include/holy/compiler.h:
+../include/holy/disk.h:
+../include/holy/device.h:
+../include/holy/mm.h:
+../include/holy/cpu/io.h:
+../include/holy/dl.h:
+../include/holy/elf.h:
+../include/holy/list.h:

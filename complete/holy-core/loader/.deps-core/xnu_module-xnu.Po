@@ -1,0 +1,58 @@
+loader/xnu_module-xnu.o: loader/xnu.c ../include/holy/file.h \
+ ../include/holy/types.h ../config.h ../include/holy/cpu/types.h \
+ ../include/holy/err.h ../include/holy/symbol.h ../include/holy/device.h \
+ ../include/holy/fs.h ../include/holy/list.h ../include/holy/compiler.h \
+ ../include/holy/disk.h ../include/holy/mm.h ../include/holy/xnu.h \
+ ../include/holy/bitmap.h ../include/holy/video.h \
+ ../include/holy/cpu/xnu.h ../include/holy/efi/api.h \
+ ../include/holy/cpu/relocator.h ../include/holy/relocator.h \
+ ../include/holy/memory.h ../include/holy/cpu/memory.h \
+ ../include/holy/dl.h ../include/holy/elf.h ../include/holy/misc.h \
+ /usr/lib/gcc/x86_64-linux-gnu/13/include/stdarg.h ../include/holy/i18n.h \
+ ../include/holy/loader.h ../include/holy/machoload.h \
+ ../include/holy/macho.h ../include/holy/cpu/macho.h \
+ ../include/holy/command.h ../include/holy/extcmd.h \
+ ../include/holy/lib/arg.h ../include/holy/script_sh.h \
+ ../include/holy/parser.h ../include/holy/reader.h ../include/holy/env.h \
+ ../include/holy/menu.h ../include/holy/autoefi.h \
+ ../include/holy/efiemu/efiemu.h
+../include/holy/file.h:
+../include/holy/types.h:
+../config.h:
+../include/holy/cpu/types.h:
+../include/holy/err.h:
+../include/holy/symbol.h:
+../include/holy/device.h:
+../include/holy/fs.h:
+../include/holy/list.h:
+../include/holy/compiler.h:
+../include/holy/disk.h:
+../include/holy/mm.h:
+../include/holy/xnu.h:
+../include/holy/bitmap.h:
+../include/holy/video.h:
+../include/holy/cpu/xnu.h:
+../include/holy/efi/api.h:
+../include/holy/cpu/relocator.h:
+../include/holy/relocator.h:
+../include/holy/memory.h:
+../include/holy/cpu/memory.h:
+../include/holy/dl.h:
+../include/holy/elf.h:
+../include/holy/misc.h:
+/usr/lib/gcc/x86_64-linux-gnu/13/include/stdarg.h:
+../include/holy/i18n.h:
+../include/holy/loader.h:
+../include/holy/machoload.h:
+../include/holy/macho.h:
+../include/holy/cpu/macho.h:
+../include/holy/command.h:
+../include/holy/extcmd.h:
+../include/holy/lib/arg.h:
+../include/holy/script_sh.h:
+../include/holy/parser.h:
+../include/holy/reader.h:
+../include/holy/env.h:
+../include/holy/menu.h:
+../include/holy/autoefi.h:
+../include/holy/efiemu/efiemu.h:

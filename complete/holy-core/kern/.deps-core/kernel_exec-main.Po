@@ -1,0 +1,43 @@
+kern/kernel_exec-main.o: kern/main.c ../include/holy/kernel.h \
+ ../include/holy/types.h ../config.h ../include/holy/cpu/types.h \
+ ../include/holy/symbol.h ../include/holy/misc.h \
+ /usr/lib/gcc/x86_64-linux-gnu/13/include/stdarg.h ../include/holy/err.h \
+ ../include/holy/i18n.h ../include/holy/compiler.h ../include/holy/dl.h \
+ ../include/holy/elf.h ../include/holy/list.h ../include/holy/term.h \
+ ../include/holy/unicode.h ../include/holy/mm.h ../include/holy/file.h \
+ ../include/holy/device.h ../include/holy/fs.h ../include/holy/disk.h \
+ ../include/holy/env.h ../include/holy/menu.h ../include/holy/command.h \
+ ../include/holy/reader.h ../include/holy/parser.h \
+ ../include/holy/machine/memory.h ../include/holy/memory.h \
+ ../include/holy/i386/memory.h ../include/holy/i386/memory_raw.h \
+ ../include/holy/offsets.h
+../include/holy/kernel.h:
+../include/holy/types.h:
+../config.h:
+../include/holy/cpu/types.h:
+../include/holy/symbol.h:
+../include/holy/misc.h:
+/usr/lib/gcc/x86_64-linux-gnu/13/include/stdarg.h:
+../include/holy/err.h:
+../include/holy/i18n.h:
+../include/holy/compiler.h:
+../include/holy/dl.h:
+../include/holy/elf.h:
+../include/holy/list.h:
+../include/holy/term.h:
+../include/holy/unicode.h:
+../include/holy/mm.h:
+../include/holy/file.h:
+../include/holy/device.h:
+../include/holy/fs.h:
+../include/holy/disk.h:
+../include/holy/env.h:
+../include/holy/menu.h:
+../include/holy/command.h:
+../include/holy/reader.h:
+../include/holy/parser.h:
+../include/holy/machine/memory.h:
+../include/holy/memory.h:
+../include/holy/i386/memory.h:
+../include/holy/i386/memory_raw.h:
+../include/holy/offsets.h:

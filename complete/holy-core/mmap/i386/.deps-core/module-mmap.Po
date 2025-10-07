@@ -1,0 +1,23 @@
+mmap/i386/module-mmap.o: mmap/i386/mmap.c \
+ ../include/holy/machine/memory.h ../include/holy/symbol.h ../config.h \
+ ../include/holy/types.h ../include/holy/cpu/types.h \
+ ../include/holy/err.h ../include/holy/memory.h \
+ ../include/holy/i386/memory.h ../include/holy/i386/memory_raw.h \
+ ../include/holy/offsets.h ../include/holy/misc.h \
+ /usr/lib/gcc/x86_64-linux-gnu/13/include/stdarg.h ../include/holy/i18n.h \
+ ../include/holy/compiler.h ../include/holy/mm.h
+../include/holy/machine/memory.h:
+../include/holy/symbol.h:
+../config.h:
+../include/holy/types.h:
+../include/holy/cpu/types.h:
+../include/holy/err.h:
+../include/holy/memory.h:
+../include/holy/i386/memory.h:
+../include/holy/i386/memory_raw.h:
+../include/holy/offsets.h:
+../include/holy/misc.h:
+/usr/lib/gcc/x86_64-linux-gnu/13/include/stdarg.h:
+../include/holy/i18n.h:
+../include/holy/compiler.h:
+../include/holy/mm.h:

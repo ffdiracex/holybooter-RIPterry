@@ -1,0 +1,76 @@
+loader/i386/bsd_module-bsd.o: loader/i386/bsd.c ../include/holy/loader.h \
+ ../include/holy/file.h ../include/holy/types.h ../config.h \
+ ../include/holy/cpu/types.h ../include/holy/err.h \
+ ../include/holy/symbol.h ../include/holy/device.h ../include/holy/fs.h \
+ ../include/holy/list.h ../include/holy/compiler.h ../include/holy/disk.h \
+ ../include/holy/mm.h ../include/holy/i386/bsd.h \
+ ../include/holy/relocator.h ../include/holy/memory.h \
+ ../include/holy/cpu/memory.h ../include/holy/i386/freebsd_reboot.h \
+ ../include/holy/i386/netbsd_reboot.h \
+ ../include/holy/i386/openbsd_reboot.h \
+ ../include/holy/i386/freebsd_linker.h \
+ ../include/holy/i386/netbsd_bootinfo.h \
+ ../include/holy/i386/openbsd_bootarg.h ../include/holy/i386/cpuid.h \
+ ../include/holy/i386/memory.h ../include/holy/dl.h ../include/holy/elf.h \
+ ../include/holy/misc.h /usr/lib/gcc/x86_64-linux-gnu/13/include/stdarg.h \
+ ../include/holy/i18n.h ../include/holy/elfload.h ../include/holy/env.h \
+ ../include/holy/menu.h ../include/holy/aout.h ../include/holy/command.h \
+ ../include/holy/extcmd.h ../include/holy/lib/arg.h \
+ ../include/holy/script_sh.h ../include/holy/parser.h \
+ ../include/holy/reader.h ../include/holy/ns8250.h \
+ ../include/holy/cpu/io.h ../include/holy/bsdlabel.h \
+ ../include/holy/crypto.h ../include/holy/machine/int.h \
+ ../include/holy/video.h ../include/holy/machine/biosnum.h \
+ ../include/holy/i386/pc/vbe.h ../include/holy/partition.h \
+ ../include/holy/i386/relocator.h loader/i386/bsd_pagetable.c
+../include/holy/loader.h:
+../include/holy/file.h:
+../include/holy/types.h:
+../config.h:
+../include/holy/cpu/types.h:
+../include/holy/err.h:
+../include/holy/symbol.h:
+../include/holy/device.h:
+../include/holy/fs.h:
+../include/holy/list.h:
+../include/holy/compiler.h:
+../include/holy/disk.h:
+../include/holy/mm.h:
+../include/holy/i386/bsd.h:
+../include/holy/relocator.h:
+../include/holy/memory.h:
+../include/holy/cpu/memory.h:
+../include/holy/i386/freebsd_reboot.h:
+../include/holy/i386/netbsd_reboot.h:
+../include/holy/i386/openbsd_reboot.h:
+../include/holy/i386/freebsd_linker.h:
+../include/holy/i386/netbsd_bootinfo.h:
+../include/holy/i386/openbsd_bootarg.h:
+../include/holy/i386/cpuid.h:
+../include/holy/i386/memory.h:
+../include/holy/dl.h:
+../include/holy/elf.h:
+../include/holy/misc.h:
+/usr/lib/gcc/x86_64-linux-gnu/13/include/stdarg.h:
+../include/holy/i18n.h:
+../include/holy/elfload.h:
+../include/holy/env.h:
+../include/holy/menu.h:
+../include/holy/aout.h:
+../include/holy/command.h:
+../include/holy/extcmd.h:
+../include/holy/lib/arg.h:
+../include/holy/script_sh.h:
+../include/holy/parser.h:
+../include/holy/reader.h:
+../include/holy/ns8250.h:
+../include/holy/cpu/io.h:
+../include/holy/bsdlabel.h:
+../include/holy/crypto.h:
+../include/holy/machine/int.h:
+../include/holy/video.h:
+../include/holy/machine/biosnum.h:
+../include/holy/i386/pc/vbe.h:
+../include/holy/partition.h:
+../include/holy/i386/relocator.h:
+loader/i386/bsd_pagetable.c:

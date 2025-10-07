@@ -1,0 +1,41 @@
+term/serial_module-ns8250.o: term/ns8250.c ../include/holy/serial.h \
+ ../include/holy/types.h ../config.h ../include/holy/cpu/types.h \
+ ../include/holy/cpu/io.h ../include/holy/usb.h ../include/holy/err.h \
+ ../include/holy/symbol.h ../include/holy/usbdesc.h \
+ ../include/holy/usbtrans.h ../include/holy/list.h \
+ ../include/holy/compiler.h ../include/holy/term.h \
+ ../include/holy/unicode.h ../include/holy/mm.h ../include/holy/misc.h \
+ /usr/lib/gcc/x86_64-linux-gnu/13/include/stdarg.h ../include/holy/i18n.h \
+ ../include/holy/ns8250.h ../include/holy/dl.h ../include/holy/elf.h \
+ ../include/holy/time.h ../include/holy/cpu/time.h \
+ ../include/holy/machine/memory.h ../include/holy/memory.h \
+ ../include/holy/i386/memory.h ../include/holy/i386/memory_raw.h \
+ ../include/holy/offsets.h
+../include/holy/serial.h:
+../include/holy/types.h:
+../config.h:
+../include/holy/cpu/types.h:
+../include/holy/cpu/io.h:
+../include/holy/usb.h:
+../include/holy/err.h:
+../include/holy/symbol.h:
+../include/holy/usbdesc.h:
+../include/holy/usbtrans.h:
+../include/holy/list.h:
+../include/holy/compiler.h:
+../include/holy/term.h:
+../include/holy/unicode.h:
+../include/holy/mm.h:
+../include/holy/misc.h:
+/usr/lib/gcc/x86_64-linux-gnu/13/include/stdarg.h:
+../include/holy/i18n.h:
+../include/holy/ns8250.h:
+../include/holy/dl.h:
+../include/holy/elf.h:
+../include/holy/time.h:
+../include/holy/cpu/time.h:
+../include/holy/machine/memory.h:
+../include/holy/memory.h:
+../include/holy/i386/memory.h:
+../include/holy/i386/memory_raw.h:
+../include/holy/offsets.h:

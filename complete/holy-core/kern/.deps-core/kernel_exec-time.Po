@@ -1,0 +1,9 @@
+kern/kernel_exec-time.o: kern/time.c ../include/holy/time.h \
+ ../include/holy/types.h ../config.h ../include/holy/cpu/types.h \
+ ../include/holy/symbol.h ../include/holy/cpu/time.h
+../include/holy/time.h:
+../include/holy/types.h:
+../config.h:
+../include/holy/cpu/types.h:
+../include/holy/symbol.h:
+../include/holy/cpu/time.h:

@@ -1,0 +1,37 @@
+commands/i386/pc/play_module-play.o: commands/i386/pc/play.c \
+ ../include/holy/dl.h ../include/holy/symbol.h ../config.h \
+ ../include/holy/err.h ../include/holy/types.h \
+ ../include/holy/cpu/types.h ../include/holy/elf.h ../include/holy/list.h \
+ ../include/holy/compiler.h ../include/holy/misc.h \
+ /usr/lib/gcc/x86_64-linux-gnu/13/include/stdarg.h ../include/holy/i18n.h \
+ ../include/holy/file.h ../include/holy/device.h ../include/holy/fs.h \
+ ../include/holy/disk.h ../include/holy/mm.h ../include/holy/term.h \
+ ../include/holy/unicode.h ../include/holy/cpu/io.h \
+ ../include/holy/command.h ../include/holy/time.h \
+ ../include/holy/cpu/time.h ../include/holy/speaker.h \
+ ../include/holy/i386/pit.h
+../include/holy/dl.h:
+../include/holy/symbol.h:
+../config.h:
+../include/holy/err.h:
+../include/holy/types.h:
+../include/holy/cpu/types.h:
+../include/holy/elf.h:
+../include/holy/list.h:
+../include/holy/compiler.h:
+../include/holy/misc.h:
+/usr/lib/gcc/x86_64-linux-gnu/13/include/stdarg.h:
+../include/holy/i18n.h:
+../include/holy/file.h:
+../include/holy/device.h:
+../include/holy/fs.h:
+../include/holy/disk.h:
+../include/holy/mm.h:
+../include/holy/term.h:
+../include/holy/unicode.h:
+../include/holy/cpu/io.h:
+../include/holy/command.h:
+../include/holy/time.h:
+../include/holy/cpu/time.h:
+../include/holy/speaker.h:
+../include/holy/i386/pit.h:

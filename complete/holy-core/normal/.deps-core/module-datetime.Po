@@ -1,0 +1,10 @@
+normal/module-datetime.o: normal/datetime.c ../include/holy/datetime.h \
+ ../include/holy/types.h ../config.h ../include/holy/cpu/types.h \
+ ../include/holy/err.h ../include/holy/symbol.h ../include/holy/i18n.h
+../include/holy/datetime.h:
+../include/holy/types.h:
+../config.h:
+../include/holy/cpu/types.h:
+../include/holy/err.h:
+../include/holy/symbol.h:
+../include/holy/i18n.h:

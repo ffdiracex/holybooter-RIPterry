@@ -1,0 +1,36 @@
+commands/hdparm_module-hdparm.o: commands/hdparm.c ../include/holy/ata.h \
+ ../include/holy/misc.h /usr/lib/gcc/x86_64-linux-gnu/13/include/stdarg.h \
+ ../include/holy/types.h ../config.h ../include/holy/cpu/types.h \
+ ../include/holy/symbol.h ../include/holy/err.h ../include/holy/i18n.h \
+ ../include/holy/compiler.h ../include/holy/disk.h \
+ ../include/holy/device.h ../include/holy/mm.h ../include/holy/cpu/io.h \
+ ../include/holy/scsi.h ../include/holy/dl.h ../include/holy/elf.h \
+ ../include/holy/list.h ../include/holy/lib/hexdump.h \
+ ../include/holy/extcmd.h ../include/holy/lib/arg.h \
+ ../include/holy/command.h ../include/holy/script_sh.h \
+ ../include/holy/parser.h ../include/holy/reader.h
+../include/holy/ata.h:
+../include/holy/misc.h:
+/usr/lib/gcc/x86_64-linux-gnu/13/include/stdarg.h:
+../include/holy/types.h:
+../config.h:
+../include/holy/cpu/types.h:
+../include/holy/symbol.h:
+../include/holy/err.h:
+../include/holy/i18n.h:
+../include/holy/compiler.h:
+../include/holy/disk.h:
+../include/holy/device.h:
+../include/holy/mm.h:
+../include/holy/cpu/io.h:
+../include/holy/scsi.h:
+../include/holy/dl.h:
+../include/holy/elf.h:
+../include/holy/list.h:
+../include/holy/lib/hexdump.h:
+../include/holy/extcmd.h:
+../include/holy/lib/arg.h:
+../include/holy/command.h:
+../include/holy/script_sh.h:
+../include/holy/parser.h:
+../include/holy/reader.h:

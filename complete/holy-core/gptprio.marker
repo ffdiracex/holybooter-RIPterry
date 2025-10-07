@@ -1,0 +1,4 @@
+COMMAND_LIST_MARKER(const char *name, holy_command_func_t func, const char *summary, const char *description)
+P1COMMAND_LIST_MARKER(const char *name, holy_command_func_t func, const char *summary, const char *description)
+holy_extcmd_t EXTCOMMAND_LIST_MARKER(const char *name, holy_extcmd_func_t func, holy_command_flags_t flags, const char *summary, const char *description, const struct holy_arg_option *parser)
+  cmd_next = EXTCOMMAND_LIST_MARKER("gptprio.next", holy_cmd_next, 0, "-d VARNAME -u VARNAME [DEVICE]", "Select next partition to boot.", options_next)

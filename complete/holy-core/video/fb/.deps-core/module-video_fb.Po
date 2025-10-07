@@ -1,0 +1,28 @@
+video/fb/module-video_fb.o: video/fb/video_fb.c ../include/holy/video.h \
+ ../include/holy/err.h ../include/holy/symbol.h ../config.h \
+ ../include/holy/types.h ../include/holy/cpu/types.h \
+ ../include/holy/list.h ../include/holy/compiler.h \
+ ../include/holy/video_fb.h ../include/holy/misc.h \
+ /usr/lib/gcc/x86_64-linux-gnu/13/include/stdarg.h ../include/holy/i18n.h \
+ ../include/holy/mm.h ../include/holy/fbblit.h ../include/holy/fbfill.h \
+ ../include/holy/fbutil.h ../include/holy/bitmap.h ../include/holy/dl.h \
+ ../include/holy/elf.h
+../include/holy/video.h:
+../include/holy/err.h:
+../include/holy/symbol.h:
+../config.h:
+../include/holy/types.h:
+../include/holy/cpu/types.h:
+../include/holy/list.h:
+../include/holy/compiler.h:
+../include/holy/video_fb.h:
+../include/holy/misc.h:
+/usr/lib/gcc/x86_64-linux-gnu/13/include/stdarg.h:
+../include/holy/i18n.h:
+../include/holy/mm.h:
+../include/holy/fbblit.h:
+../include/holy/fbfill.h:
+../include/holy/fbutil.h:
+../include/holy/bitmap.h:
+../include/holy/dl.h:
+../include/holy/elf.h:

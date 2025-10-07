@@ -1,0 +1,20 @@
+lib/libgcrypt-holy/cipher/gcry_camellia_module-camellia.o: \
+ lib/libgcrypt-holy/cipher/camellia.c ../include/holy/dl.h \
+ ../include/holy/symbol.h ../config.h ../include/holy/err.h \
+ ../include/holy/types.h ../include/holy/cpu/types.h \
+ ../include/holy/elf.h ../include/holy/list.h ../include/holy/compiler.h \
+ ../include/holy/misc.h /usr/lib/gcc/x86_64-linux-gnu/13/include/stdarg.h \
+ ../include/holy/i18n.h lib/libgcrypt-holy/cipher/camellia.h
+../include/holy/dl.h:
+../include/holy/symbol.h:
+../config.h:
+../include/holy/err.h:
+../include/holy/types.h:
+../include/holy/cpu/types.h:
+../include/holy/elf.h:
+../include/holy/list.h:
+../include/holy/compiler.h:
+../include/holy/misc.h:
+/usr/lib/gcc/x86_64-linux-gnu/13/include/stdarg.h:
+../include/holy/i18n.h:
+lib/libgcrypt-holy/cipher/camellia.h:

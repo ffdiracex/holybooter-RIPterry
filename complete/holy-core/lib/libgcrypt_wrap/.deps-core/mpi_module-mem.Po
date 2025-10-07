@@ -1,0 +1,48 @@
+lib/libgcrypt_wrap/mpi_module-mem.o: lib/libgcrypt_wrap/mem.c \
+ ../include/holy/gcrypt/g10lib.h ../holy-core/lib/posix_wrap/stdio.h \
+ ../include/holy/misc.h /usr/lib/gcc/x86_64-linux-gnu/13/include/stdarg.h \
+ ../include/holy/types.h ../config.h ../include/holy/cpu/types.h \
+ ../include/holy/symbol.h ../include/holy/err.h ../include/holy/i18n.h \
+ ../include/holy/compiler.h ../include/holy/file.h \
+ ../include/holy/device.h ../include/holy/fs.h ../include/holy/list.h \
+ ../include/holy/disk.h ../include/holy/mm.h \
+ ../holy-core/lib/posix_wrap/sys/types.h \
+ /usr/lib/gcc/x86_64-linux-gnu/13/include/stddef.h \
+ ../holy-core/lib/libgcrypt-holy/src/visibility.h \
+ ../include/holy/gcrypt/gcrypt.h ../include/holy/gcrypt/gpg-error.h \
+ ../include/holy/crypto.h \
+ ../holy-core/lib/libgcrypt-holy/src/gcrypt-module.h \
+ ../holy-core/lib/libgcrypt-holy/src/types.h ../include/holy/term.h \
+ ../include/holy/unicode.h ../include/holy/dl.h ../include/holy/elf.h \
+ ../include/holy/env.h ../include/holy/menu.h
+../include/holy/gcrypt/g10lib.h:
+../holy-core/lib/posix_wrap/stdio.h:
+../include/holy/misc.h:
+/usr/lib/gcc/x86_64-linux-gnu/13/include/stdarg.h:
+../include/holy/types.h:
+../config.h:
+../include/holy/cpu/types.h:
+../include/holy/symbol.h:
+../include/holy/err.h:
+../include/holy/i18n.h:
+../include/holy/compiler.h:
+../include/holy/file.h:
+../include/holy/device.h:
+../include/holy/fs.h:
+../include/holy/list.h:
+../include/holy/disk.h:
+../include/holy/mm.h:
+../holy-core/lib/posix_wrap/sys/types.h:
+/usr/lib/gcc/x86_64-linux-gnu/13/include/stddef.h:
+../holy-core/lib/libgcrypt-holy/src/visibility.h:
+../include/holy/gcrypt/gcrypt.h:
+../include/holy/gcrypt/gpg-error.h:
+../include/holy/crypto.h:
+../holy-core/lib/libgcrypt-holy/src/gcrypt-module.h:
+../holy-core/lib/libgcrypt-holy/src/types.h:
+../include/holy/term.h:
+../include/holy/unicode.h:
+../include/holy/dl.h:
+../include/holy/elf.h:
+../include/holy/env.h:
+../include/holy/menu.h:

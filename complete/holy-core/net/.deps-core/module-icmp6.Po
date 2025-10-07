@@ -1,0 +1,26 @@
+net/module-icmp6.o: net/icmp6.c ../include/holy/net.h \
+ ../include/holy/types.h ../config.h ../include/holy/cpu/types.h \
+ ../include/holy/err.h ../include/holy/symbol.h ../include/holy/list.h \
+ ../include/holy/compiler.h ../include/holy/fs.h ../include/holy/device.h \
+ ../include/holy/file.h ../include/holy/disk.h ../include/holy/mm.h \
+ ../include/holy/net/netbuff.h ../include/holy/misc.h \
+ /usr/lib/gcc/x86_64-linux-gnu/13/include/stdarg.h ../include/holy/i18n.h \
+ ../include/holy/net/ip.h
+../include/holy/net.h:
+../include/holy/types.h:
+../config.h:
+../include/holy/cpu/types.h:
+../include/holy/err.h:
+../include/holy/symbol.h:
+../include/holy/list.h:
+../include/holy/compiler.h:
+../include/holy/fs.h:
+../include/holy/device.h:
+../include/holy/file.h:
+../include/holy/disk.h:
+../include/holy/mm.h:
+../include/holy/net/netbuff.h:
+../include/holy/misc.h:
+/usr/lib/gcc/x86_64-linux-gnu/13/include/stdarg.h:
+../include/holy/i18n.h:
+../include/holy/net/ip.h:

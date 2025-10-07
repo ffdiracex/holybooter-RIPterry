@@ -1,0 +1,56 @@
+lib/libgcrypt-holy/mpi/mpi_module-mpi-mul.o: \
+ lib/libgcrypt-holy/mpi/mpi-mul.c ../config.h \
+ ../holy-core/lib/posix_wrap/stdio.h ../include/holy/misc.h \
+ /usr/lib/gcc/x86_64-linux-gnu/13/include/stdarg.h \
+ ../include/holy/types.h ../include/holy/cpu/types.h \
+ ../include/holy/symbol.h ../include/holy/err.h ../include/holy/i18n.h \
+ ../include/holy/compiler.h ../include/holy/file.h \
+ ../include/holy/device.h ../include/holy/fs.h ../include/holy/list.h \
+ ../include/holy/disk.h ../include/holy/mm.h \
+ ../holy-core/lib/posix_wrap/sys/types.h \
+ /usr/lib/gcc/x86_64-linux-gnu/13/include/stddef.h \
+ ../holy-core/lib/posix_wrap/stdlib.h \
+ lib/libgcrypt-holy/mpi/mpi-internal.h \
+ lib/libgcrypt-holy/mpi/mpi-asm-defs.h \
+ ../holy-core/lib/libgcrypt-holy/src/mpi.h \
+ ../holy-core/lib/posix_wrap/string.h \
+ ../holy-core/lib/libgcrypt-holy/src/types.h \
+ ../holy-core/lib/libgcrypt-holy/src/../mpi/mpi-asm-defs.h \
+ ../holy-core/lib/libgcrypt-holy/src/g10lib.h \
+ ../holy-core/lib/libgcrypt-holy/src/visibility.h \
+ ../include/holy/gcrypt/gcrypt.h ../include/holy/gcrypt/gpg-error.h \
+ ../include/holy/crypto.h \
+ ../holy-core/lib/libgcrypt-holy/src/gcrypt-module.h \
+ lib/libgcrypt-holy/mpi/mpi-inline.h
+../config.h:
+../holy-core/lib/posix_wrap/stdio.h:
+../include/holy/misc.h:
+/usr/lib/gcc/x86_64-linux-gnu/13/include/stdarg.h:
+../include/holy/types.h:
+../include/holy/cpu/types.h:
+../include/holy/symbol.h:
+../include/holy/err.h:
+../include/holy/i18n.h:
+../include/holy/compiler.h:
+../include/holy/file.h:
+../include/holy/device.h:
+../include/holy/fs.h:
+../include/holy/list.h:
+../include/holy/disk.h:
+../include/holy/mm.h:
+../holy-core/lib/posix_wrap/sys/types.h:
+/usr/lib/gcc/x86_64-linux-gnu/13/include/stddef.h:
+../holy-core/lib/posix_wrap/stdlib.h:
+lib/libgcrypt-holy/mpi/mpi-internal.h:
+lib/libgcrypt-holy/mpi/mpi-asm-defs.h:
+../holy-core/lib/libgcrypt-holy/src/mpi.h:
+../holy-core/lib/posix_wrap/string.h:
+../holy-core/lib/libgcrypt-holy/src/types.h:
+../holy-core/lib/libgcrypt-holy/src/../mpi/mpi-asm-defs.h:
+../holy-core/lib/libgcrypt-holy/src/g10lib.h:
+../holy-core/lib/libgcrypt-holy/src/visibility.h:
+../include/holy/gcrypt/gcrypt.h:
+../include/holy/gcrypt/gpg-error.h:
+../include/holy/crypto.h:
+../holy-core/lib/libgcrypt-holy/src/gcrypt-module.h:
+lib/libgcrypt-holy/mpi/mpi-inline.h:

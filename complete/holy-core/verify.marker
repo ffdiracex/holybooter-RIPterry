@@ -1,0 +1,8 @@
+COMMAND_LIST_MARKER(const char *name, holy_command_func_t func, const char *summary, const char *description)
+P1COMMAND_LIST_MARKER(const char *name, holy_command_func_t func, const char *summary, const char *description)
+holy_extcmd_t EXTCOMMAND_LIST_MARKER(const char *name, holy_extcmd_func_t func, holy_command_flags_t flags, const char *summary, const char *description, const struct holy_arg_option *parser)
+  cmd = EXTCOMMAND_LIST_MARKER("verify_detached", holy_cmd_verify_signature, 0, "[-s|--skip-sig] FILE SIGNATURE_FILE [PUBKEY_FILE]", "Verify detached signature.", options)
+  cmd_trust = EXTCOMMAND_LIST_MARKER("trust", holy_cmd_trust, 0, "[-s|--skip-sig] PUBKEY_FILE", "Add PUBKEY_FILE to trusted keys.", options)
+  cmd_trust_var = COMMAND_LIST_MARKER("trust_var", holy_cmd_trust_var, "PUBKEY_VAR", "Add the contents of PUBKEY_VAR to trusted keys.")
+  cmd_list = COMMAND_LIST_MARKER("list_trusted", holy_cmd_list, 0, "Show the list of trusted keys.")
+  cmd_distrust = COMMAND_LIST_MARKER("distrust", holy_cmd_distrust, "PUBKEY_ID", "Remove PUBKEY_ID from trusted keys.")

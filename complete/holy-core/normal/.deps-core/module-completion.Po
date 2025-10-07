@@ -1,0 +1,42 @@
+normal/module-completion.o: normal/completion.c ../include/holy/normal.h \
+ ../include/holy/term.h ../include/holy/err.h ../include/holy/symbol.h \
+ ../config.h ../include/holy/types.h ../include/holy/cpu/types.h \
+ ../include/holy/unicode.h ../include/holy/mm.h ../include/holy/misc.h \
+ /usr/lib/gcc/x86_64-linux-gnu/13/include/stdarg.h ../include/holy/i18n.h \
+ ../include/holy/compiler.h ../include/holy/list.h ../include/holy/env.h \
+ ../include/holy/menu.h ../include/holy/command.h ../include/holy/file.h \
+ ../include/holy/device.h ../include/holy/fs.h ../include/holy/disk.h \
+ ../include/holy/partition.h ../include/holy/dl.h ../include/holy/elf.h \
+ ../include/holy/parser.h ../include/holy/reader.h \
+ ../include/holy/extcmd.h ../include/holy/lib/arg.h \
+ ../include/holy/script_sh.h ../include/holy/charset.h
+../include/holy/normal.h:
+../include/holy/term.h:
+../include/holy/err.h:
+../include/holy/symbol.h:
+../config.h:
+../include/holy/types.h:
+../include/holy/cpu/types.h:
+../include/holy/unicode.h:
+../include/holy/mm.h:
+../include/holy/misc.h:
+/usr/lib/gcc/x86_64-linux-gnu/13/include/stdarg.h:
+../include/holy/i18n.h:
+../include/holy/compiler.h:
+../include/holy/list.h:
+../include/holy/env.h:
+../include/holy/menu.h:
+../include/holy/command.h:
+../include/holy/file.h:
+../include/holy/device.h:
+../include/holy/fs.h:
+../include/holy/disk.h:
+../include/holy/partition.h:
+../include/holy/dl.h:
+../include/holy/elf.h:
+../include/holy/parser.h:
+../include/holy/reader.h:
+../include/holy/extcmd.h:
+../include/holy/lib/arg.h:
+../include/holy/script_sh.h:
+../include/holy/charset.h:

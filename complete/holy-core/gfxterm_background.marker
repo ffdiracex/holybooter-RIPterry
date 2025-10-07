@@ -1,0 +1,7 @@
+INPUT_TERMINAL_LIST_MARKER(const char *name __attribute__ ((unused)), holy_term_input_t term)
+OUTPUT_TERMINAL_LIST_MARKER(const char *name __attribute__ ((unused)), holy_term_output_t term)
+COMMAND_LIST_MARKER(const char *name, holy_command_func_t func, const char *summary, const char *description)
+P1COMMAND_LIST_MARKER(const char *name, holy_command_func_t func, const char *summary, const char *description)
+holy_extcmd_t EXTCOMMAND_LIST_MARKER(const char *name, holy_extcmd_func_t func, holy_command_flags_t flags, const char *summary, const char *description, const struct holy_arg_option *parser)
+    EXTCOMMAND_LIST_MARKER("background_image", holy_gfxterm_background_image_cmd, 0, "[-m (stretch|normal)] FILE", "Load background image for active terminal.", background_image_cmd_options)
+    COMMAND_LIST_MARKER("background_color", holy_gfxterm_background_color_cmd, "COLOR", "Set background color for active terminal.")

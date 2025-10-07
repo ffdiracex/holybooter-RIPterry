@@ -1,0 +1,48 @@
+loader/multiboot_module-multiboot.o: loader/multiboot.c \
+ ../include/holy/loader.h ../include/holy/file.h ../include/holy/types.h \
+ ../config.h ../include/holy/cpu/types.h ../include/holy/err.h \
+ ../include/holy/symbol.h ../include/holy/device.h ../include/holy/fs.h \
+ ../include/holy/list.h ../include/holy/compiler.h ../include/holy/disk.h \
+ ../include/holy/mm.h ../include/holy/command.h ../include/holy/misc.h \
+ /usr/lib/gcc/x86_64-linux-gnu/13/include/stdarg.h ../include/holy/i18n.h \
+ ../include/holy/multiboot.h ../include/multiboot.h \
+ ../include/holy/cpu/multiboot.h ../include/holy/elf.h \
+ ../include/holy/aout.h ../include/holy/dl.h ../include/holy/env.h \
+ ../include/holy/menu.h ../include/holy/cpu/relocator.h \
+ ../include/holy/relocator.h ../include/holy/memory.h \
+ ../include/holy/cpu/memory.h ../include/holy/video.h \
+ ../include/holy/tpm.h loader/multiboot_elfxx.c \
+ ../include/holy/i386/relocator.h
+../include/holy/loader.h:
+../include/holy/file.h:
+../include/holy/types.h:
+../config.h:
+../include/holy/cpu/types.h:
+../include/holy/err.h:
+../include/holy/symbol.h:
+../include/holy/device.h:
+../include/holy/fs.h:
+../include/holy/list.h:
+../include/holy/compiler.h:
+../include/holy/disk.h:
+../include/holy/mm.h:
+../include/holy/command.h:
+../include/holy/misc.h:
+/usr/lib/gcc/x86_64-linux-gnu/13/include/stdarg.h:
+../include/holy/i18n.h:
+../include/holy/multiboot.h:
+../include/multiboot.h:
+../include/holy/cpu/multiboot.h:
+../include/holy/elf.h:
+../include/holy/aout.h:
+../include/holy/dl.h:
+../include/holy/env.h:
+../include/holy/menu.h:
+../include/holy/cpu/relocator.h:
+../include/holy/relocator.h:
+../include/holy/memory.h:
+../include/holy/cpu/memory.h:
+../include/holy/video.h:
+../include/holy/tpm.h:
+loader/multiboot_elfxx.c:
+../include/holy/i386/relocator.h:

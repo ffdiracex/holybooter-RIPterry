@@ -1,0 +1,73 @@
+holy-core/lib/holy_syslinux2cfg-getline.o: holy-core/lib/getline.c \
+ /usr/include/stdc-predef.h include/holy/kernel.h include/holy/types.h \
+ config.h config-util.h include/holy/symbol.h include/holy/normal.h \
+ include/holy/term.h include/holy/err.h include/holy/unicode.h \
+ include/holy/mm.h include/holy/misc.h \
+ /usr/lib/gcc/x86_64-linux-gnu/13/include/stdarg.h include/holy/i18n.h \
+ holy-core/gnulib/locale.h /usr/include/locale.h /usr/include/features.h \
+ /usr/include/features-time64.h \
+ /usr/include/x86_64-linux-gnu/bits/wordsize.h \
+ /usr/include/x86_64-linux-gnu/bits/timesize.h \
+ /usr/include/x86_64-linux-gnu/sys/cdefs.h \
+ /usr/include/x86_64-linux-gnu/bits/long-double.h \
+ /usr/include/x86_64-linux-gnu/gnu/stubs.h \
+ /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
+ /usr/lib/gcc/x86_64-linux-gnu/13/include/stddef.h \
+ /usr/include/x86_64-linux-gnu/bits/locale.h \
+ /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
+ /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
+ /usr/include/libintl.h include/holy/compiler.h include/holy/list.h \
+ include/holy/env.h include/holy/menu.h include/holy/command.h \
+ include/holy/file.h include/holy/device.h include/holy/fs.h \
+ include/holy/partition.h include/holy/dl.h include/holy/elf.h \
+ include/holy/disk.h include/holy/parser.h include/holy/reader.h \
+ include/holy/menu_viewer.h include/holy/auth.h include/holy/crypto.h \
+ include/holy/charset.h include/holy/script_sh.h
+/usr/include/stdc-predef.h:
+include/holy/kernel.h:
+include/holy/types.h:
+config.h:
+config-util.h:
+include/holy/symbol.h:
+include/holy/normal.h:
+include/holy/term.h:
+include/holy/err.h:
+include/holy/unicode.h:
+include/holy/mm.h:
+include/holy/misc.h:
+/usr/lib/gcc/x86_64-linux-gnu/13/include/stdarg.h:
+include/holy/i18n.h:
+holy-core/gnulib/locale.h:
+/usr/include/locale.h:
+/usr/include/features.h:
+/usr/include/features-time64.h:
+/usr/include/x86_64-linux-gnu/bits/wordsize.h:
+/usr/include/x86_64-linux-gnu/bits/timesize.h:
+/usr/include/x86_64-linux-gnu/sys/cdefs.h:
+/usr/include/x86_64-linux-gnu/bits/long-double.h:
+/usr/include/x86_64-linux-gnu/gnu/stubs.h:
+/usr/include/x86_64-linux-gnu/gnu/stubs-64.h:
+/usr/lib/gcc/x86_64-linux-gnu/13/include/stddef.h:
+/usr/include/x86_64-linux-gnu/bits/locale.h:
+/usr/include/x86_64-linux-gnu/bits/types/locale_t.h:
+/usr/include/x86_64-linux-gnu/bits/types/__locale_t.h:
+/usr/include/libintl.h:
+include/holy/compiler.h:
+include/holy/list.h:
+include/holy/env.h:
+include/holy/menu.h:
+include/holy/command.h:
+include/holy/file.h:
+include/holy/device.h:
+include/holy/fs.h:
+include/holy/partition.h:
+include/holy/dl.h:
+include/holy/elf.h:
+include/holy/disk.h:
+include/holy/parser.h:
+include/holy/reader.h:
+include/holy/menu_viewer.h:
+include/holy/auth.h:
+include/holy/crypto.h:
+include/holy/charset.h:
+include/holy/script_sh.h:

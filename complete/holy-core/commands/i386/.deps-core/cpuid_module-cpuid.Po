@@ -1,0 +1,33 @@
+commands/i386/cpuid_module-cpuid.o: commands/i386/cpuid.c \
+ ../include/holy/dl.h ../include/holy/symbol.h ../config.h \
+ ../include/holy/err.h ../include/holy/types.h \
+ ../include/holy/cpu/types.h ../include/holy/elf.h ../include/holy/list.h \
+ ../include/holy/compiler.h ../include/holy/misc.h \
+ /usr/lib/gcc/x86_64-linux-gnu/13/include/stdarg.h ../include/holy/i18n.h \
+ ../include/holy/mm.h ../include/holy/env.h ../include/holy/menu.h \
+ ../include/holy/command.h ../include/holy/extcmd.h \
+ ../include/holy/lib/arg.h ../include/holy/script_sh.h \
+ ../include/holy/parser.h ../include/holy/reader.h \
+ ../include/holy/i386/cpuid.h
+../include/holy/dl.h:
+../include/holy/symbol.h:
+../config.h:
+../include/holy/err.h:
+../include/holy/types.h:
+../include/holy/cpu/types.h:
+../include/holy/elf.h:
+../include/holy/list.h:
+../include/holy/compiler.h:
+../include/holy/misc.h:
+/usr/lib/gcc/x86_64-linux-gnu/13/include/stdarg.h:
+../include/holy/i18n.h:
+../include/holy/mm.h:
+../include/holy/env.h:
+../include/holy/menu.h:
+../include/holy/command.h:
+../include/holy/extcmd.h:
+../include/holy/lib/arg.h:
+../include/holy/script_sh.h:
+../include/holy/parser.h:
+../include/holy/reader.h:
+../include/holy/i386/cpuid.h:

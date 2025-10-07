@@ -1,0 +1,29 @@
+lib/xzembed/xzio_module-xz_dec_bcj.o: lib/xzembed/xz_dec_bcj.c \
+ lib/xzembed/xz_private.h lib/xzembed/xz_config.h lib/xzembed/xz.h \
+ lib/posix_wrap/stdint.h lib/posix_wrap/sys/types.h \
+ ../include/holy/misc.h /usr/lib/gcc/x86_64-linux-gnu/13/include/stdarg.h \
+ ../include/holy/types.h ../config.h ../include/holy/cpu/types.h \
+ ../include/holy/symbol.h ../include/holy/err.h ../include/holy/i18n.h \
+ ../include/holy/compiler.h \
+ /usr/lib/gcc/x86_64-linux-gnu/13/include/stddef.h \
+ lib/posix_wrap/unistd.h lib/posix_wrap/string.h lib/posix_wrap/stdlib.h \
+ ../include/holy/mm.h
+lib/xzembed/xz_private.h:
+lib/xzembed/xz_config.h:
+lib/xzembed/xz.h:
+lib/posix_wrap/stdint.h:
+lib/posix_wrap/sys/types.h:
+../include/holy/misc.h:
+/usr/lib/gcc/x86_64-linux-gnu/13/include/stdarg.h:
+../include/holy/types.h:
+../config.h:
+../include/holy/cpu/types.h:
+../include/holy/symbol.h:
+../include/holy/err.h:
+../include/holy/i18n.h:
+../include/holy/compiler.h:
+/usr/lib/gcc/x86_64-linux-gnu/13/include/stddef.h:
+lib/posix_wrap/unistd.h:
+lib/posix_wrap/string.h:
+lib/posix_wrap/stdlib.h:
+../include/holy/mm.h:

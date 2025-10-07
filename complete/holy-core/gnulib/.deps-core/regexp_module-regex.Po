@@ -1,0 +1,57 @@
+gnulib/regexp_module-regex.o: gnulib/regex.c ../config.h \
+ ../holy-core/lib/posix_wrap/limits.h ../include/holy/types.h \
+ ../include/holy/cpu/types.h ../holy-core/gnulib/regex.h \
+ ../holy-core/lib/posix_wrap/sys/types.h ../include/holy/misc.h \
+ /usr/lib/gcc/x86_64-linux-gnu/13/include/stdarg.h \
+ ../include/holy/symbol.h ../include/holy/err.h ../include/holy/i18n.h \
+ ../include/holy/compiler.h \
+ /usr/lib/gcc/x86_64-linux-gnu/13/include/stddef.h \
+ gnulib/regex_internal.h ../holy-core/lib/posix_wrap/assert.h \
+ ../holy-core/lib/posix_wrap/ctype.h ../holy-core/lib/posix_wrap/stdio.h \
+ ../include/holy/file.h ../include/holy/device.h ../include/holy/fs.h \
+ ../include/holy/list.h ../include/holy/disk.h ../include/holy/mm.h \
+ ../holy-core/lib/posix_wrap/stdlib.h \
+ ../holy-core/lib/posix_wrap/string.h \
+ ../holy-core/lib/posix_wrap/langinfo.h \
+ ../holy-core/lib/posix_wrap/localcharset.h \
+ ../holy-core/lib/posix_wrap/locale.h ../holy-core/lib/posix_wrap/wchar.h \
+ ../include/holy/charset.h ../holy-core/lib/posix_wrap/wctype.h \
+ /usr/lib/gcc/x86_64-linux-gnu/13/include/stdbool.h \
+ ../holy-core/lib/posix_wrap/stdint.h gnulib/regex_internal.c \
+ gnulib/regcomp.c gnulib/regexec.c
+../config.h:
+../holy-core/lib/posix_wrap/limits.h:
+../include/holy/types.h:
+../include/holy/cpu/types.h:
+../holy-core/gnulib/regex.h:
+../holy-core/lib/posix_wrap/sys/types.h:
+../include/holy/misc.h:
+/usr/lib/gcc/x86_64-linux-gnu/13/include/stdarg.h:
+../include/holy/symbol.h:
+../include/holy/err.h:
+../include/holy/i18n.h:
+../include/holy/compiler.h:
+/usr/lib/gcc/x86_64-linux-gnu/13/include/stddef.h:
+gnulib/regex_internal.h:
+../holy-core/lib/posix_wrap/assert.h:
+../holy-core/lib/posix_wrap/ctype.h:
+../holy-core/lib/posix_wrap/stdio.h:
+../include/holy/file.h:
+../include/holy/device.h:
+../include/holy/fs.h:
+../include/holy/list.h:
+../include/holy/disk.h:
+../include/holy/mm.h:
+../holy-core/lib/posix_wrap/stdlib.h:
+../holy-core/lib/posix_wrap/string.h:
+../holy-core/lib/posix_wrap/langinfo.h:
+../holy-core/lib/posix_wrap/localcharset.h:
+../holy-core/lib/posix_wrap/locale.h:
+../holy-core/lib/posix_wrap/wchar.h:
+../include/holy/charset.h:
+../holy-core/lib/posix_wrap/wctype.h:
+/usr/lib/gcc/x86_64-linux-gnu/13/include/stdbool.h:
+../holy-core/lib/posix_wrap/stdint.h:
+gnulib/regex_internal.c:
+gnulib/regcomp.c:
+gnulib/regexec.c:

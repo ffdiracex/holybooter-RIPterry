@@ -1,0 +1,61 @@
+kern/i386/pc/kernel_exec-init.o: kern/i386/pc/init.c \
+ ../include/holy/kernel.h ../include/holy/types.h ../config.h \
+ ../include/holy/cpu/types.h ../include/holy/symbol.h \
+ ../include/holy/mm.h ../include/holy/machine/boot.h \
+ ../include/holy/offsets.h ../include/holy/i386/floppy.h \
+ ../include/holy/cpu/io.h ../include/holy/machine/memory.h \
+ ../include/holy/err.h ../include/holy/memory.h \
+ ../include/holy/i386/memory.h ../include/holy/i386/memory_raw.h \
+ ../include/holy/machine/console.h ../include/holy/term.h \
+ ../include/holy/unicode.h ../include/holy/misc.h \
+ /usr/lib/gcc/x86_64-linux-gnu/13/include/stdarg.h ../include/holy/i18n.h \
+ ../include/holy/compiler.h ../include/holy/list.h \
+ ../include/holy/machine/kernel.h ../include/holy/machine/int.h \
+ ../include/holy/dl.h ../include/holy/elf.h ../include/holy/loader.h \
+ ../include/holy/file.h ../include/holy/device.h ../include/holy/fs.h \
+ ../include/holy/disk.h ../include/holy/env.h ../include/holy/menu.h \
+ ../include/holy/cache.h ../include/holy/time.h \
+ ../include/holy/cpu/time.h ../include/holy/cpu/cpuid.h \
+ ../include/holy/cpu/tsc.h ../include/holy/i386/cpuid.h \
+ ../include/holy/machine/time.h
+../include/holy/kernel.h:
+../include/holy/types.h:
+../config.h:
+../include/holy/cpu/types.h:
+../include/holy/symbol.h:
+../include/holy/mm.h:
+../include/holy/machine/boot.h:
+../include/holy/offsets.h:
+../include/holy/i386/floppy.h:
+../include/holy/cpu/io.h:
+../include/holy/machine/memory.h:
+../include/holy/err.h:
+../include/holy/memory.h:
+../include/holy/i386/memory.h:
+../include/holy/i386/memory_raw.h:
+../include/holy/machine/console.h:
+../include/holy/term.h:
+../include/holy/unicode.h:
+../include/holy/misc.h:
+/usr/lib/gcc/x86_64-linux-gnu/13/include/stdarg.h:
+../include/holy/i18n.h:
+../include/holy/compiler.h:
+../include/holy/list.h:
+../include/holy/machine/kernel.h:
+../include/holy/machine/int.h:
+../include/holy/dl.h:
+../include/holy/elf.h:
+../include/holy/loader.h:
+../include/holy/file.h:
+../include/holy/device.h:
+../include/holy/fs.h:
+../include/holy/disk.h:
+../include/holy/env.h:
+../include/holy/menu.h:
+../include/holy/cache.h:
+../include/holy/time.h:
+../include/holy/cpu/time.h:
+../include/holy/cpu/cpuid.h:
+../include/holy/cpu/tsc.h:
+../include/holy/i386/cpuid.h:
+../include/holy/machine/time.h:

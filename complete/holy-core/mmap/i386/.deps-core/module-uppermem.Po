@@ -1,0 +1,19 @@
+mmap/i386/module-uppermem.o: mmap/i386/uppermem.c \
+ ../include/holy/memory.h ../include/holy/types.h ../config.h \
+ ../include/holy/cpu/types.h ../include/holy/err.h \
+ ../include/holy/symbol.h ../include/holy/i386/memory.h \
+ ../include/holy/mm.h ../include/holy/misc.h \
+ /usr/lib/gcc/x86_64-linux-gnu/13/include/stdarg.h ../include/holy/i18n.h \
+ ../include/holy/compiler.h
+../include/holy/memory.h:
+../include/holy/types.h:
+../config.h:
+../include/holy/cpu/types.h:
+../include/holy/err.h:
+../include/holy/symbol.h:
+../include/holy/i386/memory.h:
+../include/holy/mm.h:
+../include/holy/misc.h:
+/usr/lib/gcc/x86_64-linux-gnu/13/include/stdarg.h:
+../include/holy/i18n.h:
+../include/holy/compiler.h:

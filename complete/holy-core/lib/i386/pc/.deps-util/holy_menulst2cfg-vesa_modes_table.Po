@@ -1,0 +1,9 @@
+holy-core/lib/i386/pc/holy_menulst2cfg-vesa_modes_table.o: \
+ holy-core/lib/i386/pc/vesa_modes_table.c /usr/include/stdc-predef.h \
+ include/holy/i386/pc/vesa_modes_table.h include/holy/types.h config.h \
+ config-util.h
+/usr/include/stdc-predef.h:
+include/holy/i386/pc/vesa_modes_table.h:
+include/holy/types.h:
+config.h:
+config-util.h:

@@ -1,0 +1,8 @@
+lib/i386/pc/linux_module-vesa_modes_table.o: \
+ lib/i386/pc/vesa_modes_table.c \
+ ../include/holy/i386/pc/vesa_modes_table.h ../include/holy/types.h \
+ ../config.h ../include/holy/cpu/types.h
+../include/holy/i386/pc/vesa_modes_table.h:
+../include/holy/types.h:
+../config.h:
+../include/holy/cpu/types.h:

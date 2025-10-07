@@ -1,0 +1,56 @@
+loader/i386/multiboot_module-multiboot_mbi.o: loader/i386/multiboot_mbi.c \
+ ../include/holy/memory.h ../include/holy/types.h ../config.h \
+ ../include/holy/cpu/types.h ../include/holy/err.h \
+ ../include/holy/symbol.h ../include/holy/machine/biosnum.h \
+ ../include/holy/machine/apm.h ../include/holy/machine/memory.h \
+ ../include/holy/i386/memory.h ../include/holy/i386/memory_raw.h \
+ ../include/holy/offsets.h ../include/holy/multiboot.h \
+ ../include/holy/file.h ../include/holy/device.h ../include/holy/fs.h \
+ ../include/holy/list.h ../include/holy/compiler.h ../include/holy/disk.h \
+ ../include/holy/mm.h ../include/multiboot.h \
+ ../include/holy/cpu/relocator.h ../include/holy/relocator.h \
+ ../include/holy/cpu/memory.h ../include/holy/partition.h \
+ ../include/holy/dl.h ../include/holy/elf.h ../include/holy/misc.h \
+ /usr/lib/gcc/x86_64-linux-gnu/13/include/stdarg.h ../include/holy/i18n.h \
+ ../include/holy/env.h ../include/holy/menu.h ../include/holy/video.h \
+ ../include/holy/net.h ../include/holy/net/netbuff.h \
+ ../include/holy/lib/cmdline.h ../include/holy/tpm.h \
+ ../include/holy/i386/pc/vbe.h
+../include/holy/memory.h:
+../include/holy/types.h:
+../config.h:
+../include/holy/cpu/types.h:
+../include/holy/err.h:
+../include/holy/symbol.h:
+../include/holy/machine/biosnum.h:
+../include/holy/machine/apm.h:
+../include/holy/machine/memory.h:
+../include/holy/i386/memory.h:
+../include/holy/i386/memory_raw.h:
+../include/holy/offsets.h:
+../include/holy/multiboot.h:
+../include/holy/file.h:
+../include/holy/device.h:
+../include/holy/fs.h:
+../include/holy/list.h:
+../include/holy/compiler.h:
+../include/holy/disk.h:
+../include/holy/mm.h:
+../include/multiboot.h:
+../include/holy/cpu/relocator.h:
+../include/holy/relocator.h:
+../include/holy/cpu/memory.h:
+../include/holy/partition.h:
+../include/holy/dl.h:
+../include/holy/elf.h:
+../include/holy/misc.h:
+/usr/lib/gcc/x86_64-linux-gnu/13/include/stdarg.h:
+../include/holy/i18n.h:
+../include/holy/env.h:
+../include/holy/menu.h:
+../include/holy/video.h:
+../include/holy/net.h:
+../include/holy/net/netbuff.h:
+../include/holy/lib/cmdline.h:
+../include/holy/tpm.h:
+../include/holy/i386/pc/vbe.h:

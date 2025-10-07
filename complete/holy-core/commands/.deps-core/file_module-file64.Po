@@ -1,0 +1,27 @@
+commands/file_module-file64.o: commands/file64.c commands/fileXX.c \
+ ../include/holy/fileid.h ../include/holy/elfload.h ../include/holy/err.h \
+ ../include/holy/symbol.h ../config.h ../include/holy/elf.h \
+ ../include/holy/types.h ../include/holy/cpu/types.h \
+ ../include/holy/file.h ../include/holy/device.h ../include/holy/fs.h \
+ ../include/holy/list.h ../include/holy/compiler.h ../include/holy/disk.h \
+ ../include/holy/mm.h ../include/holy/misc.h \
+ /usr/lib/gcc/x86_64-linux-gnu/13/include/stdarg.h ../include/holy/i18n.h
+commands/fileXX.c:
+../include/holy/fileid.h:
+../include/holy/elfload.h:
+../include/holy/err.h:
+../include/holy/symbol.h:
+../config.h:
+../include/holy/elf.h:
+../include/holy/types.h:
+../include/holy/cpu/types.h:
+../include/holy/file.h:
+../include/holy/device.h:
+../include/holy/fs.h:
+../include/holy/list.h:
+../include/holy/compiler.h:
+../include/holy/disk.h:
+../include/holy/mm.h:
+../include/holy/misc.h:
+/usr/lib/gcc/x86_64-linux-gnu/13/include/stdarg.h:
+../include/holy/i18n.h:

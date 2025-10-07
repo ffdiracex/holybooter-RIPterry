@@ -1,0 +1,16 @@
+kern/i386/pc/acpi_module-acpi.o: kern/i386/pc/acpi.c \
+ ../include/holy/acpi.h ../include/holy/types.h ../config.h \
+ ../include/holy/cpu/types.h ../include/holy/err.h \
+ ../include/holy/symbol.h ../include/holy/misc.h \
+ /usr/lib/gcc/x86_64-linux-gnu/13/include/stdarg.h ../include/holy/i18n.h \
+ ../include/holy/compiler.h
+../include/holy/acpi.h:
+../include/holy/types.h:
+../config.h:
+../include/holy/cpu/types.h:
+../include/holy/err.h:
+../include/holy/symbol.h:
+../include/holy/misc.h:
+/usr/lib/gcc/x86_64-linux-gnu/13/include/stdarg.h:
+../include/holy/i18n.h:
+../include/holy/compiler.h:

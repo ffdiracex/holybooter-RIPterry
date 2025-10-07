@@ -1,0 +1,14 @@
+holy-core/video/fb/libholymods_a-fbutil.o: holy-core/video/fb/fbutil.c \
+ /usr/include/stdc-predef.h include/holy/fbutil.h include/holy/types.h \
+ config.h config-util.h include/holy/video.h include/holy/err.h \
+ include/holy/symbol.h include/holy/list.h include/holy/compiler.h
+/usr/include/stdc-predef.h:
+include/holy/fbutil.h:
+include/holy/types.h:
+config.h:
+config-util.h:
+include/holy/video.h:
+include/holy/err.h:
+include/holy/symbol.h:
+include/holy/list.h:
+include/holy/compiler.h:

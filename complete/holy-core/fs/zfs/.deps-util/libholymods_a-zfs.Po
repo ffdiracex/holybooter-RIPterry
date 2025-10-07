@@ -1,0 +1,81 @@
+holy-core/fs/zfs/libholymods_a-zfs.o: holy-core/fs/zfs/zfs.c \
+ /usr/include/stdc-predef.h include/holy/err.h include/holy/symbol.h \
+ config.h config-util.h include/holy/file.h include/holy/types.h \
+ include/holy/device.h include/holy/fs.h include/holy/list.h \
+ include/holy/compiler.h include/holy/partition.h include/holy/dl.h \
+ include/holy/elf.h include/holy/misc.h \
+ /usr/lib/gcc/x86_64-linux-gnu/13/include/stdarg.h include/holy/i18n.h \
+ /usr/include/locale.h /usr/include/features.h \
+ /usr/include/features-time64.h \
+ /usr/include/x86_64-linux-gnu/bits/wordsize.h \
+ /usr/include/x86_64-linux-gnu/bits/timesize.h \
+ /usr/include/x86_64-linux-gnu/sys/cdefs.h \
+ /usr/include/x86_64-linux-gnu/bits/long-double.h \
+ /usr/include/x86_64-linux-gnu/gnu/stubs.h \
+ /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
+ /usr/lib/gcc/x86_64-linux-gnu/13/include/stddef.h \
+ /usr/include/x86_64-linux-gnu/bits/locale.h \
+ /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
+ /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
+ /usr/include/libintl.h include/holy/disk.h include/holy/mm.h \
+ include/holy/zfs/zfs.h include/holy/crypto.h include/holy/zfs/zio.h \
+ include/holy/zfs/spa.h include/holy/zfs/dnode.h \
+ include/holy/zfs/uberblock_impl.h include/holy/zfs/vdev_impl.h \
+ include/holy/zfs/zio_checksum.h include/holy/zfs/zap_impl.h \
+ include/holy/zfs/zap_leaf.h include/holy/zfs/zfs_znode.h \
+ include/holy/zfs/zfs_acl.h include/holy/zfs/dmu.h \
+ include/holy/zfs/dmu_objset.h include/holy/zfs/zil.h \
+ include/holy/zfs/sa_impl.h include/holy/zfs/dsl_dir.h \
+ include/holy/zfs/dsl_dataset.h include/holy/deflate.h
+/usr/include/stdc-predef.h:
+include/holy/err.h:
+include/holy/symbol.h:
+config.h:
+config-util.h:
+include/holy/file.h:
+include/holy/types.h:
+include/holy/device.h:
+include/holy/fs.h:
+include/holy/list.h:
+include/holy/compiler.h:
+include/holy/partition.h:
+include/holy/dl.h:
+include/holy/elf.h:
+include/holy/misc.h:
+/usr/lib/gcc/x86_64-linux-gnu/13/include/stdarg.h:
+include/holy/i18n.h:
+/usr/include/locale.h:
+/usr/include/features.h:
+/usr/include/features-time64.h:
+/usr/include/x86_64-linux-gnu/bits/wordsize.h:
+/usr/include/x86_64-linux-gnu/bits/timesize.h:
+/usr/include/x86_64-linux-gnu/sys/cdefs.h:
+/usr/include/x86_64-linux-gnu/bits/long-double.h:
+/usr/include/x86_64-linux-gnu/gnu/stubs.h:
+/usr/include/x86_64-linux-gnu/gnu/stubs-64.h:
+/usr/lib/gcc/x86_64-linux-gnu/13/include/stddef.h:
+/usr/include/x86_64-linux-gnu/bits/locale.h:
+/usr/include/x86_64-linux-gnu/bits/types/locale_t.h:
+/usr/include/x86_64-linux-gnu/bits/types/__locale_t.h:
+/usr/include/libintl.h:
+include/holy/disk.h:
+include/holy/mm.h:
+include/holy/zfs/zfs.h:
+include/holy/crypto.h:
+include/holy/zfs/zio.h:
+include/holy/zfs/spa.h:
+include/holy/zfs/dnode.h:
+include/holy/zfs/uberblock_impl.h:
+include/holy/zfs/vdev_impl.h:
+include/holy/zfs/zio_checksum.h:
+include/holy/zfs/zap_impl.h:
+include/holy/zfs/zap_leaf.h:
+include/holy/zfs/zfs_znode.h:
+include/holy/zfs/zfs_acl.h:
+include/holy/zfs/dmu.h:
+include/holy/zfs/dmu_objset.h:
+include/holy/zfs/zil.h:
+include/holy/zfs/sa_impl.h:
+include/holy/zfs/dsl_dir.h:
+include/holy/zfs/dsl_dataset.h:
+include/holy/deflate.h:

@@ -1,0 +1,17 @@
+lib/i386/random_module-random.o: lib/i386/random.c \
+ ../include/holy/random.h ../include/holy/types.h ../config.h \
+ ../include/holy/cpu/types.h ../include/holy/err.h \
+ ../include/holy/symbol.h ../include/holy/i386/io.h \
+ ../include/holy/i386/tsc.h ../include/holy/i386/cpuid.h \
+ ../include/holy/i386/pmtimer.h ../include/holy/acpi.h
+../include/holy/random.h:
+../include/holy/types.h:
+../config.h:
+../include/holy/cpu/types.h:
+../include/holy/err.h:
+../include/holy/symbol.h:
+../include/holy/i386/io.h:
+../include/holy/i386/tsc.h:
+../include/holy/i386/cpuid.h:
+../include/holy/i386/pmtimer.h:
+../include/holy/acpi.h:

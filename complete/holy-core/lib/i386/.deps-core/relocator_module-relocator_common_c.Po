@@ -1,0 +1,28 @@
+lib/i386/relocator_module-relocator_common_c.o: \
+ lib/i386/relocator_common_c.c ../include/holy/mm.h \
+ ../include/holy/types.h ../config.h ../include/holy/cpu/types.h \
+ ../include/holy/symbol.h ../include/holy/misc.h \
+ /usr/lib/gcc/x86_64-linux-gnu/13/include/stdarg.h ../include/holy/err.h \
+ ../include/holy/i18n.h ../include/holy/compiler.h ../include/holy/term.h \
+ ../include/holy/unicode.h ../include/holy/list.h \
+ ../include/holy/relocator.h ../include/holy/memory.h \
+ ../include/holy/cpu/memory.h ../include/holy/relocator_private.h \
+ ../include/holy/mm_private.h
+../include/holy/mm.h:
+../include/holy/types.h:
+../config.h:
+../include/holy/cpu/types.h:
+../include/holy/symbol.h:
+../include/holy/misc.h:
+/usr/lib/gcc/x86_64-linux-gnu/13/include/stdarg.h:
+../include/holy/err.h:
+../include/holy/i18n.h:
+../include/holy/compiler.h:
+../include/holy/term.h:
+../include/holy/unicode.h:
+../include/holy/list.h:
+../include/holy/relocator.h:
+../include/holy/memory.h:
+../include/holy/cpu/memory.h:
+../include/holy/relocator_private.h:
+../include/holy/mm_private.h:

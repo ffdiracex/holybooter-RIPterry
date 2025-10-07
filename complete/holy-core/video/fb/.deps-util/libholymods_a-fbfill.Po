@@ -1,0 +1,17 @@
+holy-core/video/fb/libholymods_a-fbfill.o: holy-core/video/fb/fbfill.c \
+ /usr/include/stdc-predef.h include/holy/video_fb.h include/holy/symbol.h \
+ config.h config-util.h include/holy/types.h include/holy/err.h \
+ include/holy/video.h include/holy/list.h include/holy/compiler.h \
+ include/holy/fbfill.h include/holy/fbutil.h
+/usr/include/stdc-predef.h:
+include/holy/video_fb.h:
+include/holy/symbol.h:
+config.h:
+config-util.h:
+include/holy/types.h:
+include/holy/err.h:
+include/holy/video.h:
+include/holy/list.h:
+include/holy/compiler.h:
+include/holy/fbfill.h:
+include/holy/fbutil.h:

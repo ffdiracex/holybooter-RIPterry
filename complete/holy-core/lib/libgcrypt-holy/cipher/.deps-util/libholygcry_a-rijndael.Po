@@ -1,0 +1,81 @@
+holy-core/lib/libgcrypt-holy/cipher/libholygcry_a-rijndael.o: \
+ holy-core/lib/libgcrypt-holy/cipher/rijndael.c \
+ /usr/include/stdc-predef.h include/holy/dl.h include/holy/symbol.h \
+ config.h config-util.h include/holy/err.h include/holy/types.h \
+ include/holy/elf.h include/holy/list.h include/holy/compiler.h \
+ include/holy/misc.h /usr/lib/gcc/x86_64-linux-gnu/13/include/stdarg.h \
+ include/holy/i18n.h holy-core/lib/posix_wrap/locale.h \
+ /usr/include/locale.h /usr/include/features.h \
+ /usr/include/features-time64.h \
+ /usr/include/x86_64-linux-gnu/bits/wordsize.h \
+ /usr/include/x86_64-linux-gnu/bits/timesize.h \
+ /usr/include/x86_64-linux-gnu/sys/cdefs.h \
+ /usr/include/x86_64-linux-gnu/bits/long-double.h \
+ /usr/include/x86_64-linux-gnu/gnu/stubs.h \
+ /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
+ /usr/lib/gcc/x86_64-linux-gnu/13/include/stddef.h \
+ /usr/include/x86_64-linux-gnu/bits/locale.h \
+ /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
+ /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
+ /usr/include/libintl.h holy-core/lib/libgcrypt-holy/cipher/types.h \
+ holy-core/lib/libgcrypt_wrap/cipher_wrap.h include/holy/mm.h \
+ include/holy/crypto.h holy-core/lib/posix_wrap/sys/types.h \
+ holy-core/lib/posix_wrap/string.h include/holy/gcrypt/g10lib.h \
+ holy-core/lib/posix_wrap/stdio.h include/holy/file.h \
+ include/holy/device.h include/holy/fs.h include/holy/partition.h \
+ include/holy/disk.h holy-core/lib/libgcrypt-holy/src/visibility.h \
+ include/holy/gcrypt/gcrypt.h include/holy/gcrypt/gpg-error.h \
+ holy-core/lib/libgcrypt-holy/src/gcrypt-module.h \
+ holy-core/lib/libgcrypt-holy/src/types.h \
+ holy-core/lib/libgcrypt-holy/cipher/g10lib.h \
+ holy-core/lib/libgcrypt-holy/cipher/cipher.h \
+ holy-core/lib/libgcrypt-holy/cipher/rijndael-tables.h
+/usr/include/stdc-predef.h:
+include/holy/dl.h:
+include/holy/symbol.h:
+config.h:
+config-util.h:
+include/holy/err.h:
+include/holy/types.h:
+include/holy/elf.h:
+include/holy/list.h:
+include/holy/compiler.h:
+include/holy/misc.h:
+/usr/lib/gcc/x86_64-linux-gnu/13/include/stdarg.h:
+include/holy/i18n.h:
+holy-core/lib/posix_wrap/locale.h:
+/usr/include/locale.h:
+/usr/include/features.h:
+/usr/include/features-time64.h:
+/usr/include/x86_64-linux-gnu/bits/wordsize.h:
+/usr/include/x86_64-linux-gnu/bits/timesize.h:
+/usr/include/x86_64-linux-gnu/sys/cdefs.h:
+/usr/include/x86_64-linux-gnu/bits/long-double.h:
+/usr/include/x86_64-linux-gnu/gnu/stubs.h:
+/usr/include/x86_64-linux-gnu/gnu/stubs-64.h:
+/usr/lib/gcc/x86_64-linux-gnu/13/include/stddef.h:
+/usr/include/x86_64-linux-gnu/bits/locale.h:
+/usr/include/x86_64-linux-gnu/bits/types/locale_t.h:
+/usr/include/x86_64-linux-gnu/bits/types/__locale_t.h:
+/usr/include/libintl.h:
+holy-core/lib/libgcrypt-holy/cipher/types.h:
+holy-core/lib/libgcrypt_wrap/cipher_wrap.h:
+include/holy/mm.h:
+include/holy/crypto.h:
+holy-core/lib/posix_wrap/sys/types.h:
+holy-core/lib/posix_wrap/string.h:
+include/holy/gcrypt/g10lib.h:
+holy-core/lib/posix_wrap/stdio.h:
+include/holy/file.h:
+include/holy/device.h:
+include/holy/fs.h:
+include/holy/partition.h:
+include/holy/disk.h:
+holy-core/lib/libgcrypt-holy/src/visibility.h:
+include/holy/gcrypt/gcrypt.h:
+include/holy/gcrypt/gpg-error.h:
+holy-core/lib/libgcrypt-holy/src/gcrypt-module.h:
+holy-core/lib/libgcrypt-holy/src/types.h:
+holy-core/lib/libgcrypt-holy/cipher/g10lib.h:
+holy-core/lib/libgcrypt-holy/cipher/cipher.h:
+holy-core/lib/libgcrypt-holy/cipher/rijndael-tables.h:

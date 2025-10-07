@@ -1,0 +1,8 @@
+holy-core/loader/holy_file-lzss.o: holy-core/loader/lzss.c \
+ /usr/include/stdc-predef.h include/holy/types.h config.h config-util.h \
+ include/holy/macho.h
+/usr/include/stdc-predef.h:
+include/holy/types.h:
+config.h:
+config-util.h:
+include/holy/macho.h:

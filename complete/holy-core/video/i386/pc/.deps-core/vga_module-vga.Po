@@ -1,0 +1,36 @@
+video/i386/pc/vga_module-vga.o: video/i386/pc/vga.c \
+ ../include/holy/i386/pc/int.h ../include/holy/symbol.h ../config.h \
+ ../include/holy/types.h ../include/holy/cpu/types.h \
+ ../include/holy/machine/console.h ../include/holy/term.h \
+ ../include/holy/err.h ../include/holy/unicode.h ../include/holy/mm.h \
+ ../include/holy/misc.h /usr/lib/gcc/x86_64-linux-gnu/13/include/stdarg.h \
+ ../include/holy/i18n.h ../include/holy/compiler.h ../include/holy/list.h \
+ ../include/holy/cpu/io.h ../include/holy/video.h \
+ ../include/holy/video_fb.h ../include/holy/dl.h ../include/holy/elf.h \
+ ../include/holy/vga.h ../include/holy/pci.h ../include/holy/cpu/pci.h \
+ ../include/holy/i386/io.h ../include/holy/vgaregs.h
+../include/holy/i386/pc/int.h:
+../include/holy/symbol.h:
+../config.h:
+../include/holy/types.h:
+../include/holy/cpu/types.h:
+../include/holy/machine/console.h:
+../include/holy/term.h:
+../include/holy/err.h:
+../include/holy/unicode.h:
+../include/holy/mm.h:
+../include/holy/misc.h:
+/usr/lib/gcc/x86_64-linux-gnu/13/include/stdarg.h:
+../include/holy/i18n.h:
+../include/holy/compiler.h:
+../include/holy/list.h:
+../include/holy/cpu/io.h:
+../include/holy/video.h:
+../include/holy/video_fb.h:
+../include/holy/dl.h:
+../include/holy/elf.h:
+../include/holy/vga.h:
+../include/holy/pci.h:
+../include/holy/cpu/pci.h:
+../include/holy/i386/io.h:
+../include/holy/vgaregs.h:
